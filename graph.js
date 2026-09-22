@@ -6,6 +6,24 @@ export function sliceGraph(data,sector='chips',relation='all'){
 }
 export function searchNodes(nodes,query){const q=query.trim().toLocaleLowerCase();return nodes.filter(n=>[n.name,n.en,n.handle,n.role].filter(Boolean).join(' ').toLocaleLowerCase().includes(q));}
 export function neighbors(edges,id){return new Set(edges.filter(e=>e.from===id||e.to===id).flatMap(e=>[e.from,e.to]));}
+export const overviewRegions=[
+ {id:'global',x:30,y:30,width:510,height:380,columns:3},
+ {id:'chips',x:30,y:440,width:510,height:710,columns:3},
+ {id:'ai',x:570,y:30,width:660,height:710,columns:4},
+ {id:'korea',x:570,y:770,width:660,height:380,columns:4},
+ {id:'crypto',x:1260,y:30,width:510,height:1120,columns:3}
+];
+export function layoutOverview(nodes){
+ const positions=new Map();
+ for(const region of overviewRegions){
+  const group=nodes.filter(n=>n.sector===region.id);
+  const rows=Math.ceil(group.length/region.columns);
+  const cellWidth=region.width/region.columns;
+  const cellHeight=Math.min(137,(region.height-85)/Math.max(1,rows));
+  group.forEach((n,i)=>positions.set(n.id,{x:region.x+cellWidth*(i%region.columns+.5),y:region.y+90+Math.floor(i/region.columns)*cellHeight}));
+ }
+ return positions;
+}
 export function layoutGraph(nodes,edges){
  const positions=new Map();
  // Deterministic force layout. No dependency, network request, or random motion.
