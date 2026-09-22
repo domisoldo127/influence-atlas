@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {sliceGraph,searchNodes,layoutGraph,neighbors} from '../graph.js';
+const data=JSON.parse(readFileSync(new URL('../data.json',import.meta.url),'utf8').replace(/^\uFEFF/,''));
+test('46 public accounts, no private login information, unique graph identifiers',()=>{assert.equal(data.nodes.filter(n=>n.account).length,46);assert.equal(new Set(data.nodes.map(n=>n.id)).size,data.nodes.length);assert.equal(new Set(data.edges.map(e=>e.id)).size,data.edges.length);assert.ok(!JSON.stringify(data).includes('graydomisoldo'));});
+test('every edge has valid endpoints, dated evidence and honest inference labeling',()=>{const ids=new Set(data.nodes.map(n=>n.id));for(const e of data.edges){assert.ok(ids.has(e.from)&&ids.has(e.to));assert.notEqual(e.from,e.to);assert.match(e.checkedAt,/^\d{4}-\d{2}-\d{2}$/);assert.ok(e.sources.length);for(const s of e.sources)assert.equal(new URL(s.url).protocol,'https:');assert.equal(e.status,e.type==='competition'?'inference':'documented');}});
+test('sector filters keep external partners but do not show unrelated accounts',()=>{const g=sliceGraph(data,'chips');assert.ok(g.nodes.some(n=>n.id==='anthropic'));assert.ok(!g.nodes.some(n=>n.id==='VitalikButerin'));for(const e of g.edges)assert.ok(g.nodes.some(n=>n.id===e.from)&&g.nodes.some(n=>n.id===e.to));const c=sliceGraph(data,'chips','competition');assert.ok(c.edges.length>0);assert.ok(c.edges.every(e=>e.type==='competition'));});
+test('Korean, English, and X handle searches resolve the same person',()=>{for(const q of ['젠슨','jensen','JensenHuang'])assert.ok(searchNodes(data.nodes,q).some(n=>n.id==='JensenHuang'));assert.deepEqual(searchNodes(data.nodes,'존재하지않는사람'),[]);});
+test('graph layout remains finite for empty, one-node and full graphs',()=>{for(const nodes of [[],data.nodes.slice(0,1),data.nodes]){const p=layoutGraph(nodes,data.edges);assert.equal(p.size,nodes.length);for(const v of p.values())assert.ok(Number.isFinite(v.x)&&Number.isFinite(v.y));}assert.ok(neighbors(data.edges,'JensenHuang').has('nvidia'));});
+test('no fabricated posts and no live collection claim',()=>{assert.equal(data.collection.status,'disconnected');assert.deepEqual(data.statements,[]);});

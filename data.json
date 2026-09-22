@@ -1,0 +1,1744 @@
+{
+  "version": "1.0",
+  "updatedAt": "2026-09-22",
+  "sectors": [
+    {
+      "id": "chips",
+      "name": "반도체",
+      "color": "#aa9bff",
+      "caption": "한국 반도체 생태계"
+    },
+    {
+      "id": "ai",
+      "name": "인공지능",
+      "color": "#74b9ff",
+      "caption": "AI를 만드는 사람들"
+    },
+    {
+      "id": "crypto",
+      "name": "디지털자산",
+      "color": "#e7b76c",
+      "caption": "디지털자산 생태계"
+    },
+    {
+      "id": "global",
+      "name": "글로벌 경제",
+      "color": "#e58eac",
+      "caption": "글로벌 경제정책 네트워크"
+    },
+    {
+      "id": "korea",
+      "name": "한국 경제",
+      "color": "#62c7b6",
+      "caption": "한국 경제와 산업"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "realDonaldTrump",
+      "name": "도널드 트럼프",
+      "en": "Donald Trump",
+      "sector": "global",
+      "role": "미국 대통령",
+      "kind": "person",
+      "account": true,
+      "handle": "realDonaldTrump",
+      "url": "https://x.com/realDonaldTrump",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "elonmusk",
+      "name": "일론 머스크",
+      "en": "Elon Musk",
+      "sector": "ai",
+      "role": "기업가 · Tesla / xAI",
+      "kind": "person",
+      "account": true,
+      "handle": "elonmusk",
+      "url": "https://x.com/elonmusk",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "Lagarde",
+      "name": "크리스틴 라가르드",
+      "en": "Christine Lagarde",
+      "sector": "global",
+      "role": "유럽중앙은행 총재",
+      "kind": "person",
+      "account": true,
+      "handle": "Lagarde",
+      "url": "https://x.com/Lagarde",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "satyanadella",
+      "name": "사티아 나델라",
+      "en": "Satya Nadella",
+      "sector": "ai",
+      "role": "Microsoft 회장·CEO",
+      "kind": "person",
+      "account": true,
+      "handle": "satyanadella",
+      "url": "https://x.com/satyanadella",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "JensenHuang",
+      "name": "젠슨 황",
+      "en": "Jensen Huang",
+      "sector": "chips",
+      "role": "NVIDIA 창업자·CEO",
+      "kind": "person",
+      "account": true,
+      "handle": "JensenHuang",
+      "url": "https://x.com/JensenHuang",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "SecScottBessent",
+      "name": "스콧 베선트",
+      "en": "Scott Bessent",
+      "sector": "global",
+      "role": "미국 재무장관",
+      "kind": "person",
+      "account": true,
+      "handle": "SecScottBessent",
+      "url": "https://x.com/SecScottBessent",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "howardlutnick",
+      "name": "하워드 러트닉",
+      "en": "Howard Lutnick",
+      "sector": "global",
+      "role": "미국 상무장관",
+      "kind": "person",
+      "account": true,
+      "handle": "howardlutnick",
+      "url": "https://x.com/howardlutnick",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "Isabel_Schnabel",
+      "name": "이자벨 슈나벨",
+      "en": "Isabel Schnabel",
+      "sector": "global",
+      "role": "유럽중앙은행 집행이사",
+      "kind": "person",
+      "account": true,
+      "handle": "Isabel_Schnabel",
+      "url": "https://x.com/Isabel_Schnabel",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "LisaSu",
+      "name": "리사 수",
+      "en": "Lisa Su",
+      "sector": "chips",
+      "role": "AMD 회장·CEO",
+      "kind": "person",
+      "account": true,
+      "handle": "LisaSu",
+      "url": "https://x.com/LisaSu",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "BradSmi",
+      "name": "브래드 스미스",
+      "en": "Brad Smith",
+      "sector": "ai",
+      "role": "Microsoft 부회장·사장",
+      "kind": "person",
+      "account": true,
+      "handle": "BradSmi",
+      "url": "https://x.com/BradSmi",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "sundarpichai",
+      "name": "순다르 피차이",
+      "en": "Sundar Pichai",
+      "sector": "ai",
+      "role": "Google·Alphabet CEO",
+      "kind": "person",
+      "account": true,
+      "handle": "sundarpichai",
+      "url": "https://x.com/sundarpichai",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "cz_binance",
+      "name": "창펑 자오",
+      "en": "Changpeng Zhao / CZ",
+      "sector": "crypto",
+      "role": "Binance 공동창업자",
+      "kind": "person",
+      "account": true,
+      "handle": "cz_binance",
+      "url": "https://x.com/cz_binance",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "heyibinance",
+      "name": "허이",
+      "en": "Yi He",
+      "sector": "crypto",
+      "role": "Binance 공동창업자",
+      "kind": "person",
+      "account": true,
+      "handle": "heyibinance",
+      "url": "https://x.com/heyibinance",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "brian_armstrong",
+      "name": "브라이언 암스트롱",
+      "en": "Brian Armstrong",
+      "sector": "crypto",
+      "role": "Coinbase 공동창업자·CEO",
+      "kind": "person",
+      "account": true,
+      "handle": "brian_armstrong",
+      "url": "https://x.com/brian_armstrong",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "saylor",
+      "name": "마이클 세일러",
+      "en": "Michael Saylor",
+      "sector": "crypto",
+      "role": "Strategy 공동창업자",
+      "kind": "person",
+      "account": true,
+      "handle": "saylor",
+      "url": "https://x.com/saylor",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "sama",
+      "name": "샘 올트먼",
+      "en": "Sam Altman",
+      "sector": "ai",
+      "role": "OpenAI 공동창업자",
+      "kind": "person",
+      "account": true,
+      "handle": "sama",
+      "url": "https://x.com/sama",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "demishassabis",
+      "name": "데미스 하사비스",
+      "en": "Demis Hassabis",
+      "sector": "ai",
+      "role": "Google DeepMind 공동창업자",
+      "kind": "person",
+      "account": true,
+      "handle": "demishassabis",
+      "url": "https://x.com/demishassabis",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "DarioAmodei",
+      "name": "다리오 아모데이",
+      "en": "Dario Amodei",
+      "sector": "ai",
+      "role": "Anthropic 공동창업자·CEO",
+      "kind": "person",
+      "account": true,
+      "handle": "DarioAmodei",
+      "url": "https://x.com/DarioAmodei",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "karpathy",
+      "name": "안드레이 카파시",
+      "en": "Andrej Karpathy",
+      "sector": "ai",
+      "role": "AI 연구자",
+      "kind": "person",
+      "account": true,
+      "handle": "karpathy",
+      "url": "https://x.com/karpathy",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "AndrewYNg",
+      "name": "앤드루 응",
+      "en": "Andrew Ng",
+      "sector": "ai",
+      "role": "AI 연구·교육",
+      "kind": "person",
+      "account": true,
+      "handle": "AndrewYNg",
+      "url": "https://x.com/AndrewYNg",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "drfeifei",
+      "name": "페이페이 리",
+      "en": "Fei-Fei Li",
+      "sector": "ai",
+      "role": "World Labs 공동창업자",
+      "kind": "person",
+      "account": true,
+      "handle": "drfeifei",
+      "url": "https://x.com/drfeifei",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "gdb",
+      "name": "그레그 브록먼",
+      "en": "Greg Brockman",
+      "sector": "ai",
+      "role": "OpenAI 공동창업자·사장",
+      "kind": "person",
+      "account": true,
+      "handle": "gdb",
+      "url": "https://x.com/gdb",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "ilyasut",
+      "name": "일리야 수츠케버",
+      "en": "Ilya Sutskever",
+      "sector": "ai",
+      "role": "SSI 공동창업자",
+      "kind": "person",
+      "account": true,
+      "handle": "ilyasut",
+      "url": "https://x.com/ilyasut",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "LipBuTan1",
+      "name": "립부 탄",
+      "en": "Lip-Bu Tan",
+      "sector": "chips",
+      "role": "Intel CEO",
+      "kind": "person",
+      "account": true,
+      "handle": "LipBuTan1",
+      "url": "https://x.com/LipBuTan1",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "cristianoamon",
+      "name": "크리스티아노 아몬",
+      "en": "Cristiano Amon",
+      "sector": "chips",
+      "role": "Qualcomm CEO",
+      "kind": "person",
+      "account": true,
+      "handle": "cristianoamon",
+      "url": "https://x.com/cristianoamon",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "jimkxa",
+      "name": "짐 켈러",
+      "en": "Jim Keller",
+      "sector": "chips",
+      "role": "Tenstorrent CEO",
+      "kind": "person",
+      "account": true,
+      "handle": "jimkxa",
+      "url": "https://x.com/jimkxa",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "seokhee4",
+      "name": "이석희",
+      "en": "Seok-Hee Lee",
+      "sector": "chips",
+      "role": "Intel Foundry 수석 부사장 · 전 SK하이닉스 대표",
+      "kind": "person",
+      "account": true,
+      "handle": "seokhee4",
+      "url": "https://x.com/seokhee4",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "SamsungNewsroom",
+      "name": "삼성전자",
+      "en": "Samsung Electronics",
+      "sector": "chips",
+      "role": "공식 한국 뉴스룸",
+      "kind": "organization",
+      "account": true,
+      "handle": "SamsungNewsroom",
+      "url": "https://x.com/SamsungNewsroom",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "SKhynix",
+      "name": "SK하이닉스",
+      "en": "SK hynix",
+      "sector": "chips",
+      "role": "메모리·HBM",
+      "kind": "organization",
+      "account": true,
+      "handle": "SKhynix",
+      "url": "https://x.com/SKhynix",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "Rebellions_inc",
+      "name": "리벨리온",
+      "en": "Rebellions",
+      "sector": "chips",
+      "role": "AI 추론 반도체",
+      "kind": "organization",
+      "account": true,
+      "handle": "Rebellions_inc",
+      "url": "https://x.com/Rebellions_inc",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "FuriosaAI",
+      "name": "퓨리오사AI",
+      "en": "FuriosaAI",
+      "sector": "chips",
+      "role": "AI 추론 반도체",
+      "kind": "organization",
+      "account": true,
+      "handle": "FuriosaAI",
+      "url": "https://x.com/FuriosaAI",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "VitalikButerin",
+      "name": "비탈릭 부테린",
+      "en": "Vitalik Buterin",
+      "sector": "crypto",
+      "role": "Ethereum 공동창업자",
+      "kind": "person",
+      "account": true,
+      "handle": "VitalikButerin",
+      "url": "https://x.com/VitalikButerin",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "toly",
+      "name": "아나톨리 야코벤코",
+      "en": "Anatoly Yakovenko",
+      "sector": "crypto",
+      "role": "Solana Labs 공동창업자",
+      "kind": "person",
+      "account": true,
+      "handle": "toly",
+      "url": "https://x.com/toly",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "bgarlinghouse",
+      "name": "브래드 갈링하우스",
+      "en": "Brad Garlinghouse",
+      "sector": "crypto",
+      "role": "Ripple CEO",
+      "kind": "person",
+      "account": true,
+      "handle": "bgarlinghouse",
+      "url": "https://x.com/bgarlinghouse",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "justinsuntron",
+      "name": "저스틴 선",
+      "en": "Justin Sun",
+      "sector": "crypto",
+      "role": "TRON 창업자",
+      "kind": "person",
+      "account": true,
+      "handle": "justinsuntron",
+      "url": "https://x.com/justinsuntron",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "paoloardoino",
+      "name": "파올로 아르도이노",
+      "en": "Paolo Ardoino",
+      "sector": "crypto",
+      "role": "Tether CEO",
+      "kind": "person",
+      "account": true,
+      "handle": "paoloardoino",
+      "url": "https://x.com/paoloardoino",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "jerallaire",
+      "name": "제러미 알레어",
+      "en": "Jeremy Allaire",
+      "sector": "crypto",
+      "role": "Circle 공동창업자·CEO",
+      "kind": "person",
+      "account": true,
+      "handle": "jerallaire",
+      "url": "https://x.com/jerallaire",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "CryptoHayes",
+      "name": "아서 헤이즈",
+      "en": "Arthur Hayes",
+      "sector": "crypto",
+      "role": "Maelstrom CIO · Flop Labs CEO",
+      "kind": "person",
+      "account": true,
+      "handle": "CryptoHayes",
+      "url": "https://x.com/CryptoHayes",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "Jaemyung_Lee",
+      "name": "이재명",
+      "en": "Lee Jae-myung",
+      "sector": "korea",
+      "role": "대한민국 대통령",
+      "kind": "person",
+      "account": true,
+      "handle": "Jaemyung_Lee",
+      "url": "https://x.com/Jaemyung_Lee",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "yuncheol_koo",
+      "name": "구윤철",
+      "en": "Koo Yun-cheol",
+      "sector": "korea",
+      "role": "부총리·재정경제부 장관",
+      "kind": "person",
+      "account": true,
+      "handle": "yuncheol_koo",
+      "url": "https://x.com/yuncheol_koo",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "MinisterofMOTIR",
+      "name": "김정관",
+      "en": "Kim Jung-kwan",
+      "sector": "korea",
+      "role": "산업통상부 장관",
+      "kind": "person",
+      "account": true,
+      "handle": "MinisterofMOTIR",
+      "url": "https://x.com/MinisterofMOTIR",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "bok_hub",
+      "name": "한국은행",
+      "en": "Bank of Korea",
+      "sector": "korea",
+      "role": "중앙은행",
+      "kind": "organization",
+      "account": true,
+      "handle": "bok_hub",
+      "url": "https://x.com/bok_hub",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "mofekorea",
+      "name": "재정경제부",
+      "en": "Ministry of Finance and Economy",
+      "sector": "korea",
+      "role": "경제·재정정책",
+      "kind": "organization",
+      "account": true,
+      "handle": "mofekorea",
+      "url": "https://x.com/mofekorea",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "fsckorea",
+      "name": "금융위원회",
+      "en": "Financial Services Commission",
+      "sector": "korea",
+      "role": "금융정책",
+      "kind": "organization",
+      "account": true,
+      "handle": "fsckorea",
+      "url": "https://x.com/fsckorea",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "motirnews",
+      "name": "산업통상부",
+      "en": "Ministry of Trade, Industry and Resources",
+      "sector": "korea",
+      "role": "산업·통상정책",
+      "kind": "organization",
+      "account": true,
+      "handle": "motirnews",
+      "url": "https://x.com/motirnews",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "HMGnewsroom",
+      "name": "현대자동차그룹",
+      "en": "Hyundai Motor Group",
+      "sector": "korea",
+      "role": "공식 글로벌 뉴스룸",
+      "kind": "organization",
+      "account": true,
+      "handle": "HMGnewsroom",
+      "url": "https://x.com/HMGnewsroom",
+      "checkedAt": "2026-09-22",
+      "verification": "profile",
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "en": "NVIDIA",
+      "sector": "chips",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "amd",
+      "name": "AMD",
+      "en": "AMD",
+      "sector": "chips",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "intel",
+      "name": "Intel",
+      "en": "Intel",
+      "sector": "chips",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "qualcomm",
+      "name": "Qualcomm",
+      "en": "Qualcomm",
+      "sector": "chips",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "tenstorrent",
+      "name": "Tenstorrent",
+      "en": "Tenstorrent",
+      "sector": "chips",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "en": "Microsoft",
+      "sector": "ai",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "en": "OpenAI",
+      "sector": "ai",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "en": "Anthropic",
+      "sector": "ai",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "google",
+      "name": "Google / Alphabet",
+      "en": "Google / Alphabet",
+      "sector": "ai",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "deepmind",
+      "name": "Google DeepMind",
+      "en": "Google DeepMind",
+      "sector": "ai",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "worldlabs",
+      "name": "World Labs",
+      "en": "World Labs",
+      "sector": "ai",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "ssi",
+      "name": "SSI",
+      "en": "SSI",
+      "sector": "ai",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "tesla",
+      "name": "Tesla",
+      "en": "Tesla",
+      "sector": "ai",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "xai",
+      "name": "xAI",
+      "en": "xAI",
+      "sector": "ai",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "binance",
+      "name": "Binance",
+      "en": "Binance",
+      "sector": "crypto",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "coinbase",
+      "name": "Coinbase",
+      "en": "Coinbase",
+      "sector": "crypto",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "strategy",
+      "name": "Strategy",
+      "en": "Strategy",
+      "sector": "crypto",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "ethereum",
+      "name": "Ethereum",
+      "en": "Ethereum",
+      "sector": "crypto",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "solana",
+      "name": "Solana Labs",
+      "en": "Solana Labs",
+      "sector": "crypto",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "ripple",
+      "name": "Ripple",
+      "en": "Ripple",
+      "sector": "crypto",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "tron",
+      "name": "TRON",
+      "en": "TRON",
+      "sector": "crypto",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "tether",
+      "name": "Tether",
+      "en": "Tether",
+      "sector": "crypto",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "circle",
+      "name": "Circle",
+      "en": "Circle",
+      "sector": "crypto",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "maelstrom",
+      "name": "Maelstrom",
+      "en": "Maelstrom",
+      "sector": "crypto",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "us-admin",
+      "name": "미국 행정부",
+      "en": "미국 행정부",
+      "sector": "global",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "ecb",
+      "name": "유럽중앙은행",
+      "en": "유럽중앙은행",
+      "sector": "global",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "kr-gov",
+      "name": "대한민국 정부",
+      "en": "대한민국 정부",
+      "sector": "korea",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "sds",
+      "name": "삼성SDS",
+      "en": "삼성SDS",
+      "sector": "chips",
+      "kind": "organization",
+      "account": false,
+      "role": "관계 설명용 연결 노드",
+      "checkedAt": "2026-09-22",
+      "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "from": "realDonaldTrump",
+      "to": "us-admin",
+      "label": "대통령",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/realDonaldTrump"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "from": "SecScottBessent",
+      "to": "us-admin",
+      "label": "재무장관",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/SecScottBessent"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "from": "howardlutnick",
+      "to": "us-admin",
+      "label": "상무장관",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/howardlutnick"
+        }
+      ]
+    },
+    {
+      "id": "e4",
+      "from": "Lagarde",
+      "to": "ecb",
+      "label": "총재",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/Lagarde"
+        }
+      ]
+    },
+    {
+      "id": "e5",
+      "from": "Isabel_Schnabel",
+      "to": "ecb",
+      "label": "집행이사",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/Isabel_Schnabel"
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "from": "satyanadella",
+      "to": "microsoft",
+      "label": "회장·CEO",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/satyanadella"
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "from": "BradSmi",
+      "to": "microsoft",
+      "label": "부회장·사장",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/BradSmi"
+        }
+      ]
+    },
+    {
+      "id": "e8",
+      "from": "JensenHuang",
+      "to": "nvidia",
+      "label": "창업자·CEO",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/JensenHuang"
+        }
+      ]
+    },
+    {
+      "id": "e9",
+      "from": "LisaSu",
+      "to": "amd",
+      "label": "회장·CEO",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/LisaSu"
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "from": "LipBuTan1",
+      "to": "intel",
+      "label": "CEO",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/LipBuTan1"
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "from": "cristianoamon",
+      "to": "qualcomm",
+      "label": "CEO",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/cristianoamon"
+        }
+      ]
+    },
+    {
+      "id": "e12",
+      "from": "jimkxa",
+      "to": "tenstorrent",
+      "label": "CEO",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/jimkxa"
+        }
+      ]
+    },
+    {
+      "id": "e13",
+      "from": "sundarpichai",
+      "to": "google",
+      "label": "CEO",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/sundarpichai"
+        }
+      ]
+    },
+    {
+      "id": "e14",
+      "from": "demishassabis",
+      "to": "deepmind",
+      "label": "공동창업",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/demishassabis"
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "from": "sama",
+      "to": "openai",
+      "label": "공동창업",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/sama"
+        }
+      ]
+    },
+    {
+      "id": "e16",
+      "from": "gdb",
+      "to": "openai",
+      "label": "공동창업·사장",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/gdb"
+        }
+      ]
+    },
+    {
+      "id": "e17",
+      "from": "DarioAmodei",
+      "to": "anthropic",
+      "label": "공동창업·CEO",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/DarioAmodei"
+        }
+      ]
+    },
+    {
+      "id": "e18",
+      "from": "drfeifei",
+      "to": "worldlabs",
+      "label": "공동창업",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/drfeifei"
+        }
+      ]
+    },
+    {
+      "id": "e19",
+      "from": "ilyasut",
+      "to": "ssi",
+      "label": "공동창업",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/ilyasut"
+        }
+      ]
+    },
+    {
+      "id": "e20",
+      "from": "cz_binance",
+      "to": "binance",
+      "label": "공동창업",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/cz_binance"
+        }
+      ]
+    },
+    {
+      "id": "e21",
+      "from": "heyibinance",
+      "to": "binance",
+      "label": "공동창업",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/heyibinance"
+        }
+      ]
+    },
+    {
+      "id": "e22",
+      "from": "brian_armstrong",
+      "to": "coinbase",
+      "label": "공동창업·CEO",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/brian_armstrong"
+        }
+      ]
+    },
+    {
+      "id": "e23",
+      "from": "saylor",
+      "to": "strategy",
+      "label": "공동창업",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/saylor"
+        }
+      ]
+    },
+    {
+      "id": "e24",
+      "from": "VitalikButerin",
+      "to": "ethereum",
+      "label": "공동창업",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "Ethereum 공식 역사·창립자 설명",
+          "url": "https://ethereum.org/ethereum-history-founder-and-ownership/"
+        }
+      ],
+      "note": "공동창업 이력입니다. Ethereum에는 단일 소유자나 CEO가 없으며 비탈릭이 네트워크를 통제한다는 의미가 아닙니다."
+    },
+    {
+      "id": "e25",
+      "from": "toly",
+      "to": "solana",
+      "label": "공동창업",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/toly"
+        }
+      ]
+    },
+    {
+      "id": "e26",
+      "from": "bgarlinghouse",
+      "to": "ripple",
+      "label": "CEO",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/bgarlinghouse"
+        }
+      ]
+    },
+    {
+      "id": "e27",
+      "from": "justinsuntron",
+      "to": "tron",
+      "label": "창업",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/justinsuntron"
+        }
+      ]
+    },
+    {
+      "id": "e28",
+      "from": "paoloardoino",
+      "to": "tether",
+      "label": "CEO",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/paoloardoino"
+        }
+      ]
+    },
+    {
+      "id": "e29",
+      "from": "jerallaire",
+      "to": "circle",
+      "label": "공동창업·CEO",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/jerallaire"
+        }
+      ]
+    },
+    {
+      "id": "e30",
+      "from": "CryptoHayes",
+      "to": "maelstrom",
+      "label": "CIO",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/CryptoHayes"
+        }
+      ]
+    },
+    {
+      "id": "e31",
+      "from": "Jaemyung_Lee",
+      "to": "kr-gov",
+      "label": "대통령",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/Jaemyung_Lee"
+        }
+      ]
+    },
+    {
+      "id": "e32",
+      "from": "yuncheol_koo",
+      "to": "mofekorea",
+      "label": "장관",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/yuncheol_koo"
+        }
+      ]
+    },
+    {
+      "id": "e33",
+      "from": "MinisterofMOTIR",
+      "to": "motirnews",
+      "label": "장관",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "공개 X 프로필 (계정 확인 기록)",
+          "url": "https://x.com/MinisterofMOTIR"
+        }
+      ]
+    },
+    {
+      "id": "e34",
+      "from": "elonmusk",
+      "to": "tesla",
+      "label": "공동창업·CEO",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "Tesla 공식 Elon Musk 약력",
+          "url": "https://www.tesla.com/elon-musk"
+        }
+      ]
+    },
+    {
+      "id": "e35",
+      "from": "seokhee4",
+      "to": "intel",
+      "label": "Intel Foundry 수석 부사장",
+      "type": "affiliation",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "Intel 공식 약력",
+          "url": "https://www.intel.com/content/www/us/en/corporate/biography/seok-hee-lee.html"
+        }
+      ]
+    },
+    {
+      "id": "e36",
+      "from": "seokhee4",
+      "to": "SKhynix",
+      "label": "전 대표",
+      "type": "history",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "이석희 공개 프로필",
+          "url": "https://x.com/seokhee4"
+        }
+      ],
+      "note": "과거 소속입니다. 현재 SK하이닉스 경영진을 의미하지 않습니다."
+    },
+    {
+      "id": "e37",
+      "from": "microsoft",
+      "to": "openai",
+      "label": "AI 기술·클라우드 협력",
+      "type": "partnership",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "Microsoft–OpenAI 협력 갱신 · 2026-04-27",
+          "url": "https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/"
+        }
+      ],
+      "asOf": "2026-04-27",
+      "note": "공식 발표에 근거한 기업 간 협력. 계약의 독점성 등 세부 조건은 원문을 확인하세요."
+    },
+    {
+      "id": "e38",
+      "from": "microsoft",
+      "to": "anthropic",
+      "label": "클라우드 협력·투자 발표",
+      "type": "partnership",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "Microsoft·NVIDIA·Anthropic 전략적 파트너십 · 2025-11-18",
+          "url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships"
+        }
+      ],
+      "asOf": "2025-11-18"
+    },
+    {
+      "id": "e39",
+      "from": "nvidia",
+      "to": "anthropic",
+      "label": "AI 인프라 협력·투자 발표",
+      "type": "partnership",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "Microsoft·NVIDIA·Anthropic 전략적 파트너십 · 2025-11-18",
+          "url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships"
+        }
+      ],
+      "asOf": "2025-11-18"
+    },
+    {
+      "id": "e40",
+      "from": "nvidia",
+      "to": "SKhynix",
+      "label": "차세대 AI 메모리 협력",
+      "type": "partnership",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "NVIDIA·SK hynix 다년 기술 파트너십 · 2026-06-07",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-SK-hynix-Announce-Multiyear-Technology-Partnership-to-Advance-Memory-for-AI-Factories/default.aspx"
+        }
+      ],
+      "asOf": "2026-06-07",
+      "note": "AI 메모리와 반도체 설계·제조 분야의 기술 파트너십 발표."
+    },
+    {
+      "id": "e41",
+      "from": "SKhynix",
+      "to": "Rebellions_inc",
+      "label": "전략적 투자자 참여",
+      "type": "partnership",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "리벨리온·사피온 합병 완료 발표 · 2024-12-02",
+          "url": "https://rebellions.ai/newsroom/rebellions-and-sapeon-korea-complete-merger-launching-koreas-first-ai-chip-unicorn/"
+        }
+      ],
+      "asOf": "2024-12-02",
+      "note": "합병 발표 당시 SK그룹 계열사의 전략적 투자 참여. 현재 지분율은 표시하지 않습니다."
+    },
+    {
+      "id": "e42",
+      "from": "FuriosaAI",
+      "to": "sds",
+      "label": "RNGD 기반 NPUaaS",
+      "type": "partnership",
+      "status": "documented",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "삼성SDS NPUaaS 출시 · 2026-07-20",
+          "url": "https://www.samsungsds.com/en/news/1295097_5252.html"
+        },
+        {
+          "title": "FuriosaAI 공식 발표",
+          "url": "https://furiosa.ai/blog/furiosaai-and-samsung-sds"
+        }
+      ],
+      "asOf": "2026-07-20",
+      "note": "삼성SDS와 삼성전자는 별개 법인이므로 다른 노드로 표시합니다."
+    },
+    {
+      "id": "e43",
+      "from": "nvidia",
+      "to": "amd",
+      "label": "AI 가속기 시장",
+      "type": "competition",
+      "status": "inference",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "사업 영역 참고 · 공식 사이트",
+          "url": "https://www.nvidia.com/en-us/data-center/"
+        },
+        {
+          "title": "사업 영역 참고 · 공식 사이트",
+          "url": "https://www.amd.com/en/products/accelerators/instinct.html"
+        }
+      ],
+      "note": "유사한 제품·사업 영역을 바탕으로 한 분석자의 분류입니다. 개인 간 적대·갈등이나 배타적인 경쟁 관계를 뜻하지 않으며 협력이 병존할 수 있습니다."
+    },
+    {
+      "id": "e44",
+      "from": "SamsungNewsroom",
+      "to": "SKhynix",
+      "label": "메모리·HBM 시장",
+      "type": "competition",
+      "status": "inference",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "사업 영역 참고 · 공식 사이트",
+          "url": "https://semiconductor.samsung.com/dram/hbm/"
+        },
+        {
+          "title": "사업 영역 참고 · 공식 사이트",
+          "url": "https://news.skhynix.com/"
+        }
+      ],
+      "note": "유사한 제품·사업 영역을 바탕으로 한 분석자의 분류입니다. 개인 간 적대·갈등이나 배타적인 경쟁 관계를 뜻하지 않으며 협력이 병존할 수 있습니다."
+    },
+    {
+      "id": "e45",
+      "from": "Rebellions_inc",
+      "to": "FuriosaAI",
+      "label": "AI 추론 반도체 시장",
+      "type": "competition",
+      "status": "inference",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "사업 영역 참고 · 공식 사이트",
+          "url": "https://rebellions.ai/"
+        },
+        {
+          "title": "사업 영역 참고 · 공식 사이트",
+          "url": "https://furiosa.ai/"
+        }
+      ],
+      "note": "유사한 제품·사업 영역을 바탕으로 한 분석자의 분류입니다. 개인 간 적대·갈등이나 배타적인 경쟁 관계를 뜻하지 않으며 협력이 병존할 수 있습니다."
+    },
+    {
+      "id": "e46",
+      "from": "openai",
+      "to": "anthropic",
+      "label": "생성형 AI 모델 시장",
+      "type": "competition",
+      "status": "inference",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "사업 영역 참고 · 공식 사이트",
+          "url": "https://openai.com/"
+        },
+        {
+          "title": "사업 영역 참고 · 공식 사이트",
+          "url": "https://www.anthropic.com/"
+        }
+      ],
+      "note": "유사한 제품·사업 영역을 바탕으로 한 분석자의 분류입니다. 개인 간 적대·갈등이나 배타적인 경쟁 관계를 뜻하지 않으며 협력이 병존할 수 있습니다."
+    },
+    {
+      "id": "e47",
+      "from": "tether",
+      "to": "circle",
+      "label": "달러 스테이블코인 시장",
+      "type": "competition",
+      "status": "inference",
+      "checkedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "사업 영역 참고 · 공식 사이트",
+          "url": "https://tether.to/"
+        },
+        {
+          "title": "사업 영역 참고 · 공식 사이트",
+          "url": "https://www.circle.com/"
+        }
+      ],
+      "note": "유사한 제품·사업 영역을 바탕으로 한 분석자의 분류입니다. 개인 간 적대·갈등이나 배타적인 경쟁 관계를 뜻하지 않으며 협력이 병존할 수 있습니다."
+    }
+  ],
+  "statements": [],
+  "collection": {
+    "status": "disconnected",
+    "note": "X 및 인터뷰 수집 미연결"
+  },
+  "methodology": "인물의 공동 소속은 기업·기관 노드를 통해 표시합니다. 직함·창업 이력은 확인한 공개 프로필에 근거하며, 협력은 공식 발표 날짜를 표시합니다. 경쟁 관계는 사업 영역에 대한 해석입니다. 미확인 연결은 추가하지 않습니다."
+}
