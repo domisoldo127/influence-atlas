@@ -17,3 +17,21 @@
 .map-instructions{display:flex;justify-content:space-between;gap:16px;padding:12px 18px;color:#97a3ba;font-size:10px;line-height:1.8;border-top:1px solid var(--line)}
 #layout-status{color:#b3a0ff;text-align:right}
 @media(max-width:620px){.map-instructions{flex-direction:column;gap:4px;font-size:9px}#layout-status{text-align:left}.graph-heading{gap:10px;align-items:flex-start}.graph-heading>div>span{line-height:1.7}.zoom-controls button{min-height:36px;min-width:34px}}
+
+/* Portraits preserve sector rings and map pointer gestures. */
+.node-photo{pointer-events:none}
+.photo-ring{fill:none;stroke:var(--node-color);stroke-width:1.7;pointer-events:none}
+.node.selected .photo-ring,.node:focus .photo-ring{stroke-width:3}
+.profile-icon{position:relative;overflow:hidden;flex-shrink:0}
+.profile-icon.person{border-radius:50%}
+.portrait-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top;pointer-events:none;background:#242a3b}
+.portrait-initial{display:grid;place-items:center;width:100%;height:100%}
+.photo-credit{color:#8997ad;font-size:10px;line-height:1.8;margin-top:12px;overflow-wrap:anywhere}
+.photo-credit a{color:#b6a5e5;text-decoration:underline;text-underline-offset:3px}
+.photo-credit small{display:block;font-size:9px;color:#78869d;margin-top:3px}
+.photo-sources-heading{grid-column:1/-1;padding-top:24px}
+.photo-sources-heading h2{font-size:17px}
+.photo-sources-heading h2 span{color:var(--accent);font-size:12px;margin-left:8px}
+.photo-sources-heading p{font-size:11px;color:#8f9cb1}
+.photo-source .profile-icon{float:left;width:44px;height:44px;font-size:14px;margin-right:12px}
+.photo-source .photo-credit{clear:both;padding-top:8px}

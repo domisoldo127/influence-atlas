@@ -26,6 +26,7 @@ jobs:
       - run: |
           mkdir _site
           cp index.html styles.css app.js graph.js interactions.js data.json .nojekyll _site/
+          cp -R portraits _site/
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site

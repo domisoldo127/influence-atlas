@@ -46,7 +46,18 @@
       "url": "https://x.com/realDonaldTrump",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/realDonaldTrump.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg",
+        "author": "Daniel Torok",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg",
+        "identityUrl": "https://en.wikipedia.org/wiki/Donald_Trump",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "elonmusk",
@@ -60,7 +71,18 @@
       "url": "https://x.com/elonmusk",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/elonmusk.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elon_Musk_-_54820081119_(cropped).jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Elon_Musk",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/250px-Elon_Musk_-_54820081119_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "Lagarde",
@@ -74,7 +96,18 @@
       "url": "https://x.com/Lagarde",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/Lagarde.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lagarde_ECB_Portrait_2019.jpg",
+        "author": "Lemrich / European Central Bank",
+        "license": "Attribution",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lagarde_ECB_Portrait_2019.jpg",
+        "identityUrl": "https://en.wikipedia.org/wiki/Christine_Lagarde",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Lagarde_ECB_Portrait_2019.jpg/250px-Lagarde_ECB_Portrait_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "satyanadella",
@@ -88,7 +121,18 @@
       "url": "https://x.com/satyanadella",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/satyanadella.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:MS-Exec-Nadella-Satya-2017-08-31-22_(cropped).jpg",
+        "author": "Brian Smale and Microsoft",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Satya_Nadella",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg/250px-MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "JensenHuang",
@@ -102,7 +146,18 @@
       "url": "https://x.com/JensenHuang",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/JensenHuang.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jen-Hsun_Huang_2025.jpg",
+        "author": "The White House",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jen-Hsun_Huang_2025.jpg",
+        "identityUrl": "https://en.wikipedia.org/wiki/Jensen_Huang",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Jen-Hsun_Huang_2025.jpg/250px-Jen-Hsun_Huang_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "SecScottBessent",
@@ -116,7 +171,18 @@
       "url": "https://x.com/SecScottBessent",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/SecScottBessent.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Treasury_Secretary_Scott_Bessent_(borderless)_(cropped).jpg",
+        "author": "U.S. Department of the Treasury",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Treasury_Secretary_Scott_Bessent_(borderless)_(cropped).jpg",
+        "identityUrl": "https://en.wikipedia.org/wiki/Scott_Bessent",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Official_portrait_of_Treasury_Secretary_Scott_Bessent_%28borderless%29_%28cropped%29.jpg/250px-Official_portrait_of_Treasury_Secretary_Scott_Bessent_%28borderless%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "howardlutnick",
@@ -130,7 +196,18 @@
       "url": "https://x.com/howardlutnick",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/howardlutnick.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Howard_Lutnick_2025.jpg",
+        "author": "Daniel Torok",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Howard_Lutnick_2025.jpg",
+        "identityUrl": "https://en.wikipedia.org/wiki/Howard_Lutnick",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Howard_Lutnick_2025.jpg/250px-Howard_Lutnick_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "Isabel_Schnabel",
@@ -144,7 +221,18 @@
       "url": "https://x.com/Isabel_Schnabel",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/Isabel_Schnabel.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prof._Dr._Isabel_Schnabel,_2017.jpg",
+        "author": "Foto: Gregor Fischer",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Isabel_Schnabel",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Prof._Dr._Isabel_Schnabel%2C_2017.jpg/250px-Prof._Dr._Isabel_Schnabel%2C_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "LisaSu",
@@ -158,7 +246,18 @@
       "url": "https://x.com/LisaSu",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/LisaSu.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:SXSW-2024-alih-OB7A0861-Lisa_Su_(cropped_2).jpg",
+        "author": "Fuzheado",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Lisa_Su",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/SXSW-2024-alih-OB7A0861-Lisa_Su_%28cropped_2%29.jpg/250px-SXSW-2024-alih-OB7A0861-Lisa_Su_%28cropped_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "BradSmi",
@@ -172,7 +271,18 @@
       "url": "https://x.com/BradSmi",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/BradSmi.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brad_Smith_-_Microsoft_-_01.jpg",
+        "author": "Web Summit",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Brad_Smith_(American_lawyer)",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Brad_Smith_-_Microsoft_-_01.jpg/250px-Brad_Smith_-_Microsoft_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "sundarpichai",
@@ -186,7 +296,18 @@
       "url": "https://x.com/sundarpichai",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/sundarpichai.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sundar_Pichai_-_2023_(cropped).jpg",
+        "author": "Photographer: Lukasz Kobus (European Commission)",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Sundar_Pichai",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Sundar_Pichai_-_2023_%28cropped%29.jpg/250px-Sundar_Pichai_-_2023_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "cz_binance",
@@ -200,7 +321,18 @@
       "url": "https://x.com/cz_binance",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/cz_binance.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changpeng_Zhao_in_2022.jpg",
+        "author": "Aevozer",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Changpeng_Zhao",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Changpeng_Zhao_in_2022.jpg/250px-Changpeng_Zhao_in_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "heyibinance",
@@ -214,7 +346,16 @@
       "url": "https://x.com/heyibinance",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "https://public.bnbstatic.com/image/avatar/202604/d4fdcfd53ca25cac212ee2d8ce0b03d1.jpg",
+        "sourceUrl": "https://www.binance.com/en/square/profile/heyi",
+        "author": "Yi He / Binance Square",
+        "license": "공식 프로필 · 원본 사이트 제공",
+        "licenseUrl": "https://www.binance.com/en/square/profile/heyi",
+        "checkedAt": "2026-09-23",
+        "displayNote": "외부 원본 참조 · 원형 프레임에 맞춰 표시"
+      }
     },
     {
       "id": "brian_armstrong",
@@ -228,7 +369,18 @@
       "url": "https://x.com/brian_armstrong",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/brian_armstrong.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brian_Armstrong_-_TechCrunch_Disrupt_2018_01.jpg",
+        "author": "TechCrunch",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Brian_Armstrong_(businessman)",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Brian_Armstrong_-_TechCrunch_Disrupt_2018_01.jpg/250px-Brian_Armstrong_-_TechCrunch_Disrupt_2018_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "saylor",
@@ -242,7 +394,18 @@
       "url": "https://x.com/saylor",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/saylor.png",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Michael_Saylor_2022.png",
+        "author": "ReasonTV",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Michael_J._Saylor",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Michael_Saylor_2022.png/250px-Michael_Saylor_2022.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "sama",
@@ -256,7 +419,18 @@
       "url": "https://x.com/sama",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/sama.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meeting_with_Masayoshi_Son_and_Sam_Altman_(February_3,_2025)_(3x4_cropped_on_Altman).jpg",
+        "author": "首相官邸ホームページ / Office of the Prime Minister of Japan Official Website",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Sam_Altman",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Meeting_with_Masayoshi_Son_and_Sam_Altman_%28February_3%2C_2025%29_%283x4_cropped_on_Altman%29.jpg/250px-Meeting_with_Masayoshi_Son_and_Sam_Altman_%28February_3%2C_2025%29_%283x4_cropped_on_Altman%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "demishassabis",
@@ -270,7 +444,18 @@
       "url": "https://x.com/demishassabis",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/demishassabis.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Demis_Hassabis,_2024_Nobel_Prize_Laureate_in_Chemistry_7_(cropped).jpg",
+        "author": "John Sears",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Demis_Hassabis",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Demis_Hassabis%2C_2024_Nobel_Prize_Laureate_in_Chemistry_7_%28cropped%29.jpg/250px-Demis_Hassabis%2C_2024_Nobel_Prize_Laureate_in_Chemistry_7_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "DarioAmodei",
@@ -284,7 +469,18 @@
       "url": "https://x.com/DarioAmodei",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/DarioAmodei.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_at_TechCrunch_Disrupt_2023_01_(cropped).jpg",
+        "author": "TechCrunch",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Dario_Amodei",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Dario_Amodei_at_TechCrunch_Disrupt_2023_01_%28cropped%29.jpg/250px-Dario_Amodei_at_TechCrunch_Disrupt_2023_01_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "karpathy",
@@ -298,7 +494,18 @@
       "url": "https://x.com/karpathy",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/karpathy.png",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andrej_Karpathy,_OpenAI.png",
+        "author": "Gladwin Analytics",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Andrej_Karpathy",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Andrej_Karpathy%2C_OpenAI.png/250px-Andrej_Karpathy%2C_OpenAI.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "AndrewYNg",
@@ -312,7 +519,18 @@
       "url": "https://x.com/AndrewYNg",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/AndrewYNg.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andrew_Ng_at_TechCrunch_Disrupt_SF_2017.jpg",
+        "author": "TechCrunch",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Andrew_Ng",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Andrew_Ng_at_TechCrunch_Disrupt_SF_2017.jpg/250px-Andrew_Ng_at_TechCrunch_Disrupt_SF_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "drfeifei",
@@ -326,7 +544,18 @@
       "url": "https://x.com/drfeifei",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/drfeifei.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fei-Fei_Li_at_AI_for_Good_2017.jpg",
+        "author": "ITU Pictures",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Fei-Fei_Li",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Fei-Fei_Li_at_AI_for_Good_2017.jpg/250px-Fei-Fei_Li_at_AI_for_Good_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "gdb",
@@ -340,7 +569,18 @@
       "url": "https://x.com/gdb",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/gdb.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Disrupt_SF_TechCrunch_Disrupt_San_Francisco_2019_-_Day_2_(48838200316)_(cropped).jpg",
+        "author": "TechCrunch",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Greg_Brockman",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Disrupt_SF_TechCrunch_Disrupt_San_Francisco_2019_-_Day_2_%2848838200316%29_%28cropped%29.jpg/250px-Disrupt_SF_TechCrunch_Disrupt_San_Francisco_2019_-_Day_2_%2848838200316%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "ilyasut",
@@ -354,7 +594,18 @@
       "url": "https://x.com/ilyasut",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/ilyasut.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ilya_Sutskever_and_Sam_Altman_in_TAU_(cropped).jpg",
+        "author": "Eladkarmel",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Ilya_Sutskever",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Ilya_Sutskever_and_Sam_Altman_in_TAU_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      }
     },
     {
       "id": "LipBuTan1",
@@ -368,7 +619,18 @@
       "url": "https://x.com/LipBuTan1",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/LipBuTan1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Howard_Lutnick_with_Intel_CEO_Lip-Bu_Tan_(2025)_(cropped3).jpg",
+        "author": "United States Department of Commerce",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Howard_Lutnick_with_Intel_CEO_Lip-Bu_Tan_(2025)_(cropped3).jpg",
+        "identityUrl": "https://en.wikipedia.org/wiki/Lip-Bu_Tan",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Howard_Lutnick_with_Intel_CEO_Lip-Bu_Tan_%282025%29_%28cropped3%29.jpg/250px-Howard_Lutnick_with_Intel_CEO_Lip-Bu_Tan_%282025%29_%28cropped3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "cristianoamon",
@@ -382,7 +644,18 @@
       "url": "https://x.com/cristianoamon",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/cristianoamon.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cristiano_Amon_(President_%26_CEOQualcomm)_(54916855494)_(cropped).jpg",
+        "author": "Web Summit",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Cristiano_Amon",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Cristiano_Amon_%28President_%26_CEOQualcomm%29_%2854916855494%29_%28cropped%29.jpg/250px-Cristiano_Amon_%28President_%26_CEOQualcomm%29_%2854916855494%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "jimkxa",
@@ -396,7 +669,18 @@
       "url": "https://x.com/jimkxa",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/jimkxa.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jim_Keller_(engineer).jpg",
+        "author": "LG전자",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Jim_Keller_(engineer)",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Jim_Keller_%28engineer%29.jpg/250px-Jim_Keller_%28engineer%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "seokhee4",
@@ -410,7 +694,16 @@
       "url": "https://x.com/seokhee4",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "https://d18r0a86za96sg.cloudfront.net/wp-content/uploads/2026/05/27201106/LeeSeok-hee_CEO_of_SK_hynix_interview_1.jpg",
+        "sourceUrl": "https://news.skhynix.com/en/interview-with-sk-hynix-ceo-seok-hee-lee-curiosity-has-shaped-me/",
+        "author": "SK hynix Newsroom",
+        "license": "공식 인터뷰 · 원본 사이트 제공",
+        "licenseUrl": "https://news.skhynix.com/en/interview-with-sk-hynix-ceo-seok-hee-lee-curiosity-has-shaped-me/",
+        "checkedAt": "2026-09-23",
+        "displayNote": "외부 원본 참조 · 원형 프레임에 맞춰 표시"
+      }
     },
     {
       "id": "SamsungNewsroom",
@@ -480,7 +773,18 @@
       "url": "https://x.com/VitalikButerin",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/VitalikButerin.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vitalik_Buterin_TechCrunch_London_2015_(cropped).jpg",
+        "author": "John Phillips",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Vitalik_Buterin",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Vitalik_Buterin_TechCrunch_London_2015_%28cropped%29.jpg/250px-Vitalik_Buterin_TechCrunch_London_2015_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "toly",
@@ -494,7 +798,18 @@
       "url": "https://x.com/toly",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/toly.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anatoly_Yakovenko_(TechCrunch_2022).jpg",
+        "author": "TechCrunch",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Anatoly_Yakovenko",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Anatoly_Yakovenko_%28TechCrunch_2022%29.jpg/250px-Anatoly_Yakovenko_%28TechCrunch_2022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "bgarlinghouse",
@@ -508,7 +823,18 @@
       "url": "https://x.com/bgarlinghouse",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/bgarlinghouse.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:TechCrunch_Disrupt_San_Francisco_2018_-_day_1_(43784201564).jpg",
+        "author": "TechCrunch",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Brad_Garlinghouse",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/TechCrunch_Disrupt_San_Francisco_2018_-_day_1_%2843784201564%29.jpg/250px-TechCrunch_Disrupt_San_Francisco_2018_-_day_1_%2843784201564%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "justinsuntron",
@@ -522,7 +848,18 @@
       "url": "https://x.com/justinsuntron",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/justinsuntron.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Head_of_the_Grenadian_Delegation_to_the_12th_World_Trade_Organization_Ministerial_Conference_Justin_Sun.jpg",
+        "author": "World Trade Organization",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Justin_Sun",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Head_of_the_Grenadian_Delegation_to_the_12th_World_Trade_Organization_Ministerial_Conference_Justin_Sun.jpg/250px-Head_of_the_Grenadian_Delegation_to_the_12th_World_Trade_Organization_Ministerial_Conference_Justin_Sun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "paoloardoino",
@@ -536,7 +873,18 @@
       "url": "https://x.com/paoloardoino",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/paoloardoino.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paolo_Ardoino_by_Gage_Skidmore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Paolo_Ardoino",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Paolo_Ardoino_by_Gage_Skidmore.jpg/250px-Paolo_Ardoino_by_Gage_Skidmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "jerallaire",
@@ -550,7 +898,18 @@
       "url": "https://x.com/jerallaire",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/jerallaire.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jeremy_Allaire_at_MoneyConf_2018_(2)_(cropped).jpg",
+        "author": "MoneyConf",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Jeremy_Allaire",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Jeremy_Allaire_at_MoneyConf_2018_%282%29_%28cropped%29.jpg/250px-Jeremy_Allaire_at_MoneyConf_2018_%282%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "CryptoHayes",
@@ -564,7 +923,16 @@
       "url": "https://x.com/CryptoHayes",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "https://maelstrom.fund/wp-content/uploads/2023/03/01.png",
+        "sourceUrl": "https://maelstrom.fund/team/",
+        "author": "Maelstrom",
+        "license": "공식 소개 · 원본 사이트 제공",
+        "licenseUrl": "https://maelstrom.fund/team/",
+        "checkedAt": "2026-09-23",
+        "displayNote": "외부 원본 참조 · 원형 프레임에 맞춰 표시"
+      }
     },
     {
       "id": "Jaemyung_Lee",
@@ -578,7 +946,18 @@
       "url": "https://x.com/Jaemyung_Lee",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/Jaemyung_Lee.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:President_Lee_Jae_Myung_20260306.jpg",
+        "author": "Republic of Korea/플리커 / 대한민국 청와대",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Lee_Jae_Myung",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/President_Lee_Jae_Myung_20260306.jpg/250px-President_Lee_Jae_Myung_20260306.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "yuncheol_koo",
@@ -592,7 +971,18 @@
       "url": "https://x.com/yuncheol_koo",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/yuncheol_koo.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Koo_Yun-cheol_20250806.jpg",
+        "author": "대한민국 국회",
+        "license": "KOGL Type 1",
+        "licenseUrl": "https://www.kogl.or.kr/info/licenseType1.do",
+        "identityUrl": "https://en.wikipedia.org/wiki/Koo_Yun-cheol",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Koo_Yun-cheol_20250806.jpg/250px-Koo_Yun-cheol_20250806.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "MinisterofMOTIR",
@@ -606,7 +996,18 @@
       "url": "https://x.com/MinisterofMOTIR",
       "checkedAt": "2026-09-22",
       "verification": "profile",
-      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다."
+      "note": "2026-09-22 확인한 공개 프로필·계정 목록 기준. 직함은 이후 바뀔 수 있습니다.",
+      "photo": {
+        "url": "./portraits/MinisterofMOTIR.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kim_Jung-kwan%27s_portrait_(2025.07).jpg",
+        "author": "CHOSUN IMAGE VISION",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "identityUrl": "https://en.wikipedia.org/wiki/Kim_Jung-kwan_(politician)",
+        "checkedAt": "2026-09-23",
+        "displayNote": "원형 프레임에 맞춰 표시",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Kim_Jung-kwan%27s_portrait_%282025.07%29.jpg/250px-Kim_Jung-kwan%27s_portrait_%282025.07%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
     },
     {
       "id": "bok_hub",
