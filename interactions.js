@@ -1,3 +1,4 @@
+import {edgeGeometry,layoutEdgeAnnotations} from './graph.js';
 // Camera coordinates are SVG viewBox units, independent of CSS size and letterboxing.
 export const MIN_ZOOM = .25, MAX_ZOOM = 6;
 export function zoomAt(camera, center, anchor, requestedZoom) {
@@ -64,13 +65,14 @@ export function attachMapInteractions({svg,camera,getPositions,getEdges,getSecto
   getPositions().set(id,p);
   const node=[...svg.querySelectorAll('[data-node]')].find(el=>el.dataset.node===id);
   node?.setAttribute('transform',`translate(${p.x},${p.y})`);
-  const edges=new Map(getEdges().filter(e=>e.from===id||e.to===id).map(e=>[e.id,e]));
+  const allEdges=getEdges(),edges=new Map(allEdges.map(e=>[e.id,e])),annotations=layoutEdgeAnnotations(allEdges,getPositions());
   for(const el of svg.querySelectorAll('[data-edge]')){
    const edge=edges.get(el.dataset.edge);if(!edge)continue;
-   const a=getPositions().get(edge.from),b=getPositions().get(edge.to);
-   for(const path of el.querySelectorAll('path'))path.setAttribute('d',`M${a.x},${a.y} L${b.x},${b.y}`);
-   const label=el.querySelector('.edge-label');
-   if(label){label.setAttribute('x',(a.x+b.x)/2);label.setAttribute('y',(a.y+b.y)/2-5);}
+   const a=getPositions().get(edge.from),b=getPositions().get(edge.to),p=annotations.get(edge.id);
+   for(const path of el.querySelectorAll('.edge,.edge-hit'))path.setAttribute('d',edgeGeometry(a,b).path);
+   if(el.classList.contains('edge-annotation'))el.setAttribute('transform',`translate(${p.x},${p.y})`);
+   const leader=el.querySelector('.edge-leader');
+   if(leader){leader.setAttribute('x1',p.anchor.x);leader.setAttribute('y1',p.anchor.y);leader.setAttribute('x2',p.x);leader.setAttribute('y2',p.y);}
   }
  }
  const beginPan=()=>{

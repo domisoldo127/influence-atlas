@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-09-23",
   "sectors": [
     {
       "id": "chips",
@@ -1402,7 +1402,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/realDonaldTrump"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · 대통령",
+      "summary": "도널드 트럼프 — 미국 행정부: 공개 프로필에 대통령 역할이 기재되어 있습니다."
     },
     {
       "id": "e2",
@@ -1417,7 +1420,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/SecScottBessent"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · 재무장관",
+      "summary": "스콧 베선트 — 미국 행정부: 공개 프로필에 재무장관 역할이 기재되어 있습니다."
     },
     {
       "id": "e3",
@@ -1432,7 +1438,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/howardlutnick"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · 상무장관",
+      "summary": "하워드 러트닉 — 미국 행정부: 공개 프로필에 상무장관 역할이 기재되어 있습니다."
     },
     {
       "id": "e4",
@@ -1447,7 +1456,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/Lagarde"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · 총재",
+      "summary": "크리스틴 라가르드 — 유럽중앙은행: 공개 프로필에 총재 역할이 기재되어 있습니다."
     },
     {
       "id": "e5",
@@ -1462,7 +1474,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/Isabel_Schnabel"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · 집행이사",
+      "summary": "이자벨 슈나벨 — 유럽중앙은행: 공개 프로필에 집행이사 역할이 기재되어 있습니다."
     },
     {
       "id": "e6",
@@ -1477,7 +1492,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/satyanadella"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · 회장·CEO",
+      "summary": "사티아 나델라 — Microsoft: 공개 프로필에 회장·CEO 역할이 기재되어 있습니다."
     },
     {
       "id": "e7",
@@ -1492,7 +1510,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/BradSmi"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · 부회장·사장",
+      "summary": "브래드 스미스 — Microsoft: 공개 프로필에 부회장·사장 역할이 기재되어 있습니다."
     },
     {
       "id": "e8",
@@ -1507,7 +1528,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/JensenHuang"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · 창업자·CEO",
+      "summary": "젠슨 황 — NVIDIA: 공개 프로필에 창업자·CEO 역할 또는 창업 이력이 기재되어 있습니다."
     },
     {
       "id": "e9",
@@ -1522,7 +1546,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/LisaSu"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · 회장·CEO",
+      "summary": "리사 수 — AMD: 공개 프로필에 회장·CEO 역할이 기재되어 있습니다."
     },
     {
       "id": "e10",
@@ -1537,7 +1564,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/LipBuTan1"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · CEO",
+      "summary": "립부 탄 — Intel: 공개 프로필에 CEO 역할이 기재되어 있습니다."
     },
     {
       "id": "e11",
@@ -1552,7 +1582,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/cristianoamon"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · CEO",
+      "summary": "크리스티아노 아몬 — Qualcomm: 공개 프로필에 CEO 역할이 기재되어 있습니다."
     },
     {
       "id": "e12",
@@ -1567,7 +1600,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/jimkxa"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · CEO",
+      "summary": "짐 켈러 — Tenstorrent: 공개 프로필에 CEO 역할이 기재되어 있습니다."
     },
     {
       "id": "e13",
@@ -1582,7 +1618,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/sundarpichai"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · CEO",
+      "summary": "순다르 피차이 — Google / Alphabet: 공개 프로필에 CEO 역할이 기재되어 있습니다."
     },
     {
       "id": "e14",
@@ -1597,7 +1636,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/demishassabis"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "창업 · 공동창업",
+      "summary": "데미스 하사비스 — Google DeepMind: 공개 프로필에 공동창업 역할 또는 창업 이력이 기재되어 있습니다."
     },
     {
       "id": "e15",
@@ -1612,7 +1654,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/sama"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "창업 · 공동창업",
+      "summary": "샘 올트먼 — OpenAI: 공개 프로필에 공동창업 역할 또는 창업 이력이 기재되어 있습니다."
     },
     {
       "id": "e16",
@@ -1627,7 +1672,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/gdb"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · 공동창업·사장",
+      "summary": "그레그 브록먼 — OpenAI: 공개 프로필에 공동창업·사장 역할 또는 창업 이력이 기재되어 있습니다."
     },
     {
       "id": "e17",
@@ -1642,7 +1690,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/DarioAmodei"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · 공동창업·CEO",
+      "summary": "다리오 아모데이 — Anthropic: 공개 프로필에 공동창업·CEO 역할 또는 창업 이력이 기재되어 있습니다."
     },
     {
       "id": "e18",
@@ -1657,7 +1708,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/drfeifei"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "창업 · 공동창업",
+      "summary": "페이페이 리 — World Labs: 공개 프로필에 공동창업 역할 또는 창업 이력이 기재되어 있습니다."
     },
     {
       "id": "e19",
@@ -1672,7 +1726,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/ilyasut"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "창업 · 공동창업",
+      "summary": "일리야 수츠케버 — SSI: 공개 프로필에 공동창업 역할 또는 창업 이력이 기재되어 있습니다."
     },
     {
       "id": "e20",
@@ -1687,7 +1744,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/cz_binance"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "창업 · 공동창업",
+      "summary": "창펑 자오 — Binance: 공개 프로필에 공동창업 역할 또는 창업 이력이 기재되어 있습니다."
     },
     {
       "id": "e21",
@@ -1702,7 +1762,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/heyibinance"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "창업 · 공동창업",
+      "summary": "허이 — Binance: 공개 프로필에 공동창업 역할 또는 창업 이력이 기재되어 있습니다."
     },
     {
       "id": "e22",
@@ -1717,7 +1780,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/brian_armstrong"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · 공동창업·CEO",
+      "summary": "브라이언 암스트롱 — Coinbase: 공개 프로필에 공동창업·CEO 역할 또는 창업 이력이 기재되어 있습니다."
     },
     {
       "id": "e23",
@@ -1732,7 +1798,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/saylor"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "창업 · 공동창업",
+      "summary": "마이클 세일러 — Strategy: 공개 프로필에 공동창업 역할 또는 창업 이력이 기재되어 있습니다."
     },
     {
       "id": "e24",
@@ -1748,7 +1817,10 @@
           "url": "https://ethereum.org/ethereum-history-founder-and-ownership/"
         }
       ],
-      "note": "공동창업 이력입니다. Ethereum에는 단일 소유자나 CEO가 없으며 비탈릭이 네트워크를 통제한다는 의미가 아닙니다."
+      "note": "공동창업 이력입니다. Ethereum에는 단일 소유자나 CEO가 없으며 비탈릭이 네트워크를 통제한다는 의미가 아닙니다.",
+      "directed": false,
+      "graphLabel": "창업 · 공동창업",
+      "summary": "비탈릭 부테린 — Ethereum: 공개 프로필에 공동창업 역할 또는 창업 이력이 기재되어 있습니다."
     },
     {
       "id": "e25",
@@ -1763,7 +1835,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/toly"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "창업 · 공동창업",
+      "summary": "아나톨리 야코벤코 — Solana Labs: 공개 프로필에 공동창업 역할 또는 창업 이력이 기재되어 있습니다."
     },
     {
       "id": "e26",
@@ -1778,7 +1853,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/bgarlinghouse"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · CEO",
+      "summary": "브래드 갈링하우스 — Ripple: 공개 프로필에 CEO 역할이 기재되어 있습니다."
     },
     {
       "id": "e27",
@@ -1793,7 +1871,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/justinsuntron"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "창업 · 창업",
+      "summary": "저스틴 선 — TRON: 공개 프로필에 창업 역할 또는 창업 이력이 기재되어 있습니다."
     },
     {
       "id": "e28",
@@ -1808,7 +1889,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/paoloardoino"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · CEO",
+      "summary": "파올로 아르도이노 — Tether: 공개 프로필에 CEO 역할이 기재되어 있습니다."
     },
     {
       "id": "e29",
@@ -1823,7 +1907,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/jerallaire"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · 공동창업·CEO",
+      "summary": "제러미 알레어 — Circle: 공개 프로필에 공동창업·CEO 역할 또는 창업 이력이 기재되어 있습니다."
     },
     {
       "id": "e30",
@@ -1838,7 +1925,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/CryptoHayes"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · CIO",
+      "summary": "아서 헤이즈 — Maelstrom: 공개 프로필에 CIO 역할이 기재되어 있습니다."
     },
     {
       "id": "e31",
@@ -1853,7 +1943,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/Jaemyung_Lee"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · 대통령",
+      "summary": "이재명 — 대한민국 정부: 공개 프로필에 대통령 역할이 기재되어 있습니다."
     },
     {
       "id": "e32",
@@ -1868,7 +1961,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/yuncheol_koo"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · 장관",
+      "summary": "구윤철 — 재정경제부: 공개 프로필에 장관 역할이 기재되어 있습니다."
     },
     {
       "id": "e33",
@@ -1883,7 +1979,10 @@
           "title": "공개 X 프로필 (계정 확인 기록)",
           "url": "https://x.com/MinisterofMOTIR"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · 장관",
+      "summary": "김정관 — 산업통상부: 공개 프로필에 장관 역할이 기재되어 있습니다."
     },
     {
       "id": "e34",
@@ -1898,7 +1997,10 @@
           "title": "Tesla 공식 Elon Musk 약력",
           "url": "https://www.tesla.com/elon-musk"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · 공동창업·CEO",
+      "summary": "일론 머스크 — Tesla: 공개 프로필에 공동창업·CEO 역할 또는 창업 이력이 기재되어 있습니다."
     },
     {
       "id": "e35",
@@ -1913,7 +2015,10 @@
           "title": "Intel 공식 약력",
           "url": "https://www.intel.com/content/www/us/en/corporate/biography/seok-hee-lee.html"
         }
-      ]
+      ],
+      "directed": false,
+      "graphLabel": "역할 · 수석 부사장",
+      "summary": "이석희 — Intel: 공개 프로필에 Intel Foundry 수석 부사장 역할이 기재되어 있습니다."
     },
     {
       "id": "e36",
@@ -1929,7 +2034,10 @@
           "url": "https://x.com/seokhee4"
         }
       ],
-      "note": "과거 소속입니다. 현재 SK하이닉스 경영진을 의미하지 않습니다."
+      "note": "과거 소속입니다. 현재 SK하이닉스 경영진을 의미하지 않습니다.",
+      "directed": false,
+      "graphLabel": "과거 소속",
+      "summary": "이석희의 SK하이닉스 대표 재임 이력입니다. 현재 경영진이라는 뜻은 아닙니다."
     },
     {
       "id": "e37",
@@ -1946,39 +2054,48 @@
         }
       ],
       "asOf": "2026-04-27",
-      "note": "공식 발표에 근거한 기업 간 협력. 계약의 독점성 등 세부 조건은 원문을 확인하세요."
+      "note": "공식 발표에 근거한 기업 간 협력. 계약의 독점성 등 세부 조건은 원문을 확인하세요.",
+      "directed": false,
+      "graphLabel": "협력 · AI·클라우드",
+      "summary": "Microsoft와 OpenAI는 AI 기술과 클라우드 분야의 기업 간 협력을 발표했습니다. 계약 범위는 발표 원문을 기준으로 읽습니다."
     },
     {
       "id": "e38",
       "from": "microsoft",
       "to": "anthropic",
       "label": "클라우드 협력·투자 발표",
-      "type": "partnership",
+      "type": "support",
       "status": "documented",
-      "checkedAt": "2026-09-22",
+      "checkedAt": "2026-09-23",
       "sources": [
         {
           "title": "Microsoft·NVIDIA·Anthropic 전략적 파트너십 · 2025-11-18",
           "url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships"
         }
       ],
-      "asOf": "2025-11-18"
+      "asOf": "2025-11-18",
+      "directed": true,
+      "graphLabel": "투자·클라우드 지원",
+      "summary": "Microsoft는 Anthropic에 대한 투자 계획과 클라우드 협력을 발표했습니다. 자본·인프라를 제공하는 방향을 표시하며 무조건적인 지지를 뜻하지 않습니다."
     },
     {
       "id": "e39",
       "from": "nvidia",
       "to": "anthropic",
       "label": "AI 인프라 협력·투자 발표",
-      "type": "partnership",
+      "type": "support",
       "status": "documented",
-      "checkedAt": "2026-09-22",
+      "checkedAt": "2026-09-23",
       "sources": [
         {
           "title": "Microsoft·NVIDIA·Anthropic 전략적 파트너십 · 2025-11-18",
           "url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships"
         }
       ],
-      "asOf": "2025-11-18"
+      "asOf": "2025-11-18",
+      "directed": true,
+      "graphLabel": "투자·인프라 지원",
+      "summary": "NVIDIA는 Anthropic에 대한 투자 계획과 AI 인프라 협력을 발표했습니다. 사업상 자본·기술 지원이며 지휘 관계를 뜻하지 않습니다."
     },
     {
       "id": "e40",
@@ -1995,16 +2112,19 @@
         }
       ],
       "asOf": "2026-06-07",
-      "note": "AI 메모리와 반도체 설계·제조 분야의 기술 파트너십 발표."
+      "note": "AI 메모리와 반도체 설계·제조 분야의 기술 파트너십 발표.",
+      "directed": false,
+      "graphLabel": "협력 · AI 메모리",
+      "summary": "NVIDIA와 SK하이닉스는 AI 메모리 및 반도체 설계·제조 기술 협력을 발표했습니다. 상호 기술 협력 관계입니다."
     },
     {
       "id": "e41",
       "from": "SKhynix",
       "to": "Rebellions_inc",
       "label": "전략적 투자자 참여",
-      "type": "partnership",
+      "type": "support",
       "status": "documented",
-      "checkedAt": "2026-09-22",
+      "checkedAt": "2026-09-23",
       "sources": [
         {
           "title": "리벨리온·사피온 합병 완료 발표 · 2024-12-02",
@@ -2012,7 +2132,10 @@
         }
       ],
       "asOf": "2024-12-02",
-      "note": "합병 발표 당시 SK그룹 계열사의 전략적 투자 참여. 현재 지분율은 표시하지 않습니다."
+      "note": "합병 발표 당시 SK그룹 계열사의 전략적 투자 참여. 현재 지분율은 표시하지 않습니다.",
+      "directed": true,
+      "graphLabel": "지원 · 전략적 투자",
+      "summary": "SK하이닉스는 리벨리온·사피온 합병 발표에 전략적 투자자로 참여했습니다. 투자 지원 관계이며 현재 지분율이나 경영권을 뜻하지 않습니다."
     },
     {
       "id": "e42",
@@ -2033,7 +2156,10 @@
         }
       ],
       "asOf": "2026-07-20",
-      "note": "삼성SDS와 삼성전자는 별개 법인이므로 다른 노드로 표시합니다."
+      "note": "삼성SDS와 삼성전자는 별개 법인이므로 다른 노드로 표시합니다.",
+      "directed": false,
+      "graphLabel": "협력 · NPU 서비스",
+      "summary": "퓨리오사AI의 RNGD를 활용한 삼성SDS의 NPUaaS 서비스 협력입니다. 반도체 기술과 클라우드 서비스를 연결하는 관계입니다."
     },
     {
       "id": "e43",
@@ -2053,7 +2179,10 @@
           "url": "https://www.amd.com/en/products/accelerators/instinct.html"
         }
       ],
-      "note": "유사한 제품·사업 영역을 바탕으로 한 분석자의 분류입니다. 개인 간 적대·갈등이나 배타적인 경쟁 관계를 뜻하지 않으며 협력이 병존할 수 있습니다."
+      "note": "유사한 제품·사업 영역을 바탕으로 한 분석자의 분류입니다. 개인 간 적대·갈등이나 배타적인 경쟁 관계를 뜻하지 않으며 협력이 병존할 수 있습니다.",
+      "directed": false,
+      "graphLabel": "경쟁 · AI 가속기",
+      "summary": "NVIDIA와 AMD는 AI 가속기 시장에서 제품·서비스 영역이 겹치는 경쟁 관계로 분류했습니다. 사업 영역에 근거한 해석이며 개인적 적대 관계를 의미하지 않습니다."
     },
     {
       "id": "e44",
@@ -2073,7 +2202,10 @@
           "url": "https://news.skhynix.com/"
         }
       ],
-      "note": "유사한 제품·사업 영역을 바탕으로 한 분석자의 분류입니다. 개인 간 적대·갈등이나 배타적인 경쟁 관계를 뜻하지 않으며 협력이 병존할 수 있습니다."
+      "note": "유사한 제품·사업 영역을 바탕으로 한 분석자의 분류입니다. 개인 간 적대·갈등이나 배타적인 경쟁 관계를 뜻하지 않으며 협력이 병존할 수 있습니다.",
+      "directed": false,
+      "graphLabel": "경쟁 · 메모리·HBM",
+      "summary": "삼성전자와 SK하이닉스는 메모리·HBM 시장에서 제품·서비스 영역이 겹치는 경쟁 관계로 분류했습니다. 사업 영역에 근거한 해석이며 개인적 적대 관계를 의미하지 않습니다."
     },
     {
       "id": "e45",
@@ -2093,7 +2225,10 @@
           "url": "https://furiosa.ai/"
         }
       ],
-      "note": "유사한 제품·사업 영역을 바탕으로 한 분석자의 분류입니다. 개인 간 적대·갈등이나 배타적인 경쟁 관계를 뜻하지 않으며 협력이 병존할 수 있습니다."
+      "note": "유사한 제품·사업 영역을 바탕으로 한 분석자의 분류입니다. 개인 간 적대·갈등이나 배타적인 경쟁 관계를 뜻하지 않으며 협력이 병존할 수 있습니다.",
+      "directed": false,
+      "graphLabel": "경쟁 · AI 추론 반도체",
+      "summary": "리벨리온와 퓨리오사AI는 AI 추론 반도체 시장에서 제품·서비스 영역이 겹치는 경쟁 관계로 분류했습니다. 사업 영역에 근거한 해석이며 개인적 적대 관계를 의미하지 않습니다."
     },
     {
       "id": "e46",
@@ -2113,7 +2248,10 @@
           "url": "https://www.anthropic.com/"
         }
       ],
-      "note": "유사한 제품·사업 영역을 바탕으로 한 분석자의 분류입니다. 개인 간 적대·갈등이나 배타적인 경쟁 관계를 뜻하지 않으며 협력이 병존할 수 있습니다."
+      "note": "유사한 제품·사업 영역을 바탕으로 한 분석자의 분류입니다. 개인 간 적대·갈등이나 배타적인 경쟁 관계를 뜻하지 않으며 협력이 병존할 수 있습니다.",
+      "directed": false,
+      "graphLabel": "경쟁 · 생성형 AI 모델",
+      "summary": "OpenAI와 Anthropic는 생성형 AI 모델 시장에서 제품·서비스 영역이 겹치는 경쟁 관계로 분류했습니다. 사업 영역에 근거한 해석이며 개인적 적대 관계를 의미하지 않습니다."
     },
     {
       "id": "e47",
@@ -2133,7 +2271,76 @@
           "url": "https://www.circle.com/"
         }
       ],
-      "note": "유사한 제품·사업 영역을 바탕으로 한 분석자의 분류입니다. 개인 간 적대·갈등이나 배타적인 경쟁 관계를 뜻하지 않으며 협력이 병존할 수 있습니다."
+      "note": "유사한 제품·사업 영역을 바탕으로 한 분석자의 분류입니다. 개인 간 적대·갈등이나 배타적인 경쟁 관계를 뜻하지 않으며 협력이 병존할 수 있습니다.",
+      "directed": false,
+      "graphLabel": "경쟁 · 달러 스테이블코인",
+      "summary": "Tether와 Circle는 달러 스테이블코인 시장에서 제품·서비스 영역이 겹치는 경쟁 관계로 분류했습니다. 사업 영역에 근거한 해석이며 개인적 적대 관계를 의미하지 않습니다."
+    },
+    {
+      "id": "e48",
+      "from": "realDonaldTrump",
+      "to": "SecScottBessent",
+      "type": "hierarchy",
+      "label": "대통령 → 재무장관",
+      "graphLabel": "상하 · 재무장관",
+      "summary": "트럼프는 행정부의 수장이고, 베선트는 재무부를 맡은 각료입니다. 대통령과 내각 장관의 공식 직무상 상하관계로 표시합니다.",
+      "note": "백악관 각료 명단과 행정부 역할 설명에 근거합니다. 개인적 충성도나 모든 사안의 직접 보고 여부를 평가한 것은 아닙니다.",
+      "directed": true,
+      "status": "documented",
+      "checkedAt": "2026-09-23",
+      "sources": [
+        {
+          "title": "백악관 공식 각료 명단",
+          "url": "https://www.whitehouse.gov/administration/cabinet/"
+        },
+        {
+          "title": "백악관 행정부·대통령과 각료의 역할 설명",
+          "url": "https://www.whitehouse.gov/government/executive-branch/"
+        }
+      ]
+    },
+    {
+      "id": "e49",
+      "from": "realDonaldTrump",
+      "to": "howardlutnick",
+      "type": "hierarchy",
+      "label": "대통령 → 상무장관",
+      "graphLabel": "상하 · 상무장관",
+      "summary": "트럼프는 행정부의 수장이고, 러트닉은 상무부를 맡은 각료입니다. 대통령과 내각 장관의 공식 직무상 상하관계로 표시합니다.",
+      "note": "백악관 각료 명단과 행정부 역할 설명에 근거합니다. 개인적 충성도나 모든 사안의 직접 보고 여부를 평가한 것은 아닙니다.",
+      "directed": true,
+      "status": "documented",
+      "checkedAt": "2026-09-23",
+      "sources": [
+        {
+          "title": "백악관 공식 각료 명단",
+          "url": "https://www.whitehouse.gov/administration/cabinet/"
+        },
+        {
+          "title": "백악관 행정부·대통령과 각료의 역할 설명",
+          "url": "https://www.whitehouse.gov/government/executive-branch/"
+        }
+      ]
+    },
+    {
+      "id": "e50",
+      "from": "elonmusk",
+      "to": "openai",
+      "type": "conflict",
+      "label": "법적 대립 이력 · 2025년 3월",
+      "graphLabel": "법적 대립 · 2025",
+      "summary": "머스크와 OpenAI 사이에 소송을 통한 법적 대립이 있었습니다. OpenAI의 2025년 3월 14일 발표가 언급한 당시 분쟁 이력입니다.",
+      "note": "분쟁 당사자인 OpenAI의 발표를 출처로 사용합니다. 소송 제기와 대립 이력만 표시하며, 일방의 주장에 대한 진위 판단이나 현재 소송 진행 상태를 뜻하지 않습니다.",
+      "directed": false,
+      "status": "documented",
+      "asOf": "2025-03-14",
+      "checkedAt": "2026-09-23",
+      "sources": [
+        {
+          "title": "OpenAI의 2025-03-14 소송 관련 발표 (분쟁 당사자 자료)",
+          "url": "https://openai.com/index/court-rejects-elon/"
+        }
+      ]
     }
   ],
   "statements": [],

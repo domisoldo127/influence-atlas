@@ -39,3 +39,30 @@ export function layoutGraph(nodes,edges){
  }
  return positions;
 }
+
+// Edge geometry is shared by initial rendering and node dragging.
+export function edgeGeometry(a,b,padding=29){
+ const dx=b.x-a.x,dy=b.y-a.y,d=Math.hypot(dx,dy),inset=Math.min(padding,d/3);
+ const ux=d?dx/d:1,uy=d?dy/d:0;
+ return {path:`M${a.x+ux*inset},${a.y+uy*inset} L${b.x-ux*inset},${b.y-uy*inset}`,ux,uy};
+}
+export function layoutEdgeAnnotations(edges,positions){
+ const placed=[],result=new Map();
+ const obstacles=[...positions.values()].map(p=>({x:p.x-62,y:p.y-29,w:124,h:88}));
+ const overlap=(a,b)=>Math.max(0,Math.min(a.x+a.w,b.x+b.w)-Math.max(a.x,b.x))*Math.max(0,Math.min(a.y+a.h,b.y+b.h)-Math.max(a.y,b.y));
+ for(const e of edges){
+  const a=positions.get(e.from),b=positions.get(e.to);if(!a||!b)continue;
+  const {ux,uy}=edgeGeometry(a,b),text=e.graphLabel||e.label;
+  const width=20+[...text].reduce((n,c)=>n+(/[^\x00-\xff]/.test(c)?12:6.8),0),height=26;
+  let best;
+  for(const t of [.5,.35,.65,.23,.77])for(const offset of [-18,18,-40,40,-65,65]){
+   const anchor={x:a.x+(b.x-a.x)*t,y:a.y+(b.y-a.y)*t};
+   const x=anchor.x-uy*offset,y=anchor.y+ux*offset;
+   const box={x:x-width/2,y:y-height/2,w:width,h:height};
+   const score=obstacles.reduce((s,o)=>s+overlap(box,o)*5,0)+placed.reduce((s,o)=>s+overlap(box,o)*8,0)+Math.abs(offset)*.3+Math.abs(t-.5)*30;
+   if(!best||score<best.score)best={x,y,width,height,anchor,box,score};
+  }
+  placed.push(best.box);result.set(e.id,best);
+ }
+ return result;
+}
