@@ -1,4 +1,4 @@
-import {edgeGeometry,layoutEdgeAnnotations} from './graph.js';
+import {layoutEdgeAnnotations,relationshipGeometry} from './graph.js';
 // Camera coordinates are SVG viewBox units, independent of CSS size and letterboxing.
 export const MIN_ZOOM = .25, MAX_ZOOM = 6;
 export function zoomAt(camera, center, anchor, requestedZoom) {
@@ -69,8 +69,8 @@ export function attachMapInteractions({svg,camera,getPositions,getEdges,getSecto
   const allEdges=getEdges(),edges=new Map(allEdges.map(e=>[e.id,e])),annotations=layoutEdgeAnnotations(allEdges,getPositions());
   for(const el of svg.querySelectorAll('[data-edge]')){
    const edge=edges.get(el.dataset.edge);if(!edge)continue;
-   const a=getPositions().get(edge.from),b=getPositions().get(edge.to),p=annotations.get(edge.id);
-   for(const path of el.querySelectorAll('.edge,.edge-hit'))path.setAttribute('d',edgeGeometry(a,b).path);
+   const p=annotations.get(edge.id);
+   for(const path of el.querySelectorAll('.edge,.edge-hit'))path.setAttribute('d',relationshipGeometry(edge,getPositions()).path);
    if(el.classList.contains('edge-annotation'))el.setAttribute('transform',`translate(${p.x},${p.y})`);
    const leader=el.querySelector('.edge-leader');
    if(leader){leader.setAttribute('x1',p.anchor.x);leader.setAttribute('y1',p.anchor.y);leader.setAttribute('x2',p.x);leader.setAttribute('y2',p.y);}
@@ -138,5 +138,9 @@ export function attachMapInteractions({svg,camera,getPositions,getEdges,getSecto
    updateNode(id,next);store.set(getSector(),id,getPositions().get(id));
   }
  });
- return {zoom(factor){Object.assign(camera,zoomAt(camera,center(),center(),camera.zoom*factor));transform();}};
+ return {zoom(factor){
+  const bounds=(svg.closest('.graph-stage')||svg).getBoundingClientRect();
+  const anchor=point({clientX:bounds.left+bounds.width/2,clientY:bounds.top+bounds.height/2});
+  Object.assign(camera,zoomAt(camera,center(),anchor,camera.zoom*factor));transform();
+ }};
 }

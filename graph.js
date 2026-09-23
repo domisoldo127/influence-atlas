@@ -48,7 +48,8 @@ export function edgeGeometry(a,b,padding=29){
 }
 export function layoutEdgeAnnotations(edges,positions){
  const placed=[],result=new Map();
- const obstacles=[...positions.values()].map(p=>({x:p.x-62,y:p.y-29,w:124,h:88}));
+ const integrated=edges.some(e=>e.integrated);
+ const obstacles=[...positions.values()].map(p=>integrated?{x:p.x-115,y:p.y-44,w:230,h:148}:{x:p.x-62,y:p.y-29,w:124,h:88});
  const overlap=(a,b)=>Math.max(0,Math.min(a.x+a.w,b.x+b.w)-Math.max(a.x,b.x))*Math.max(0,Math.min(a.y+a.h,b.y+b.h)-Math.max(a.y,b.y));
  for(const e of edges){
   const a=positions.get(e.from),b=positions.get(e.to);if(!a||!b)continue;
@@ -88,3 +89,49 @@ export function relationshipPanels(graph,columns=2){
  return {nodes,edges,panels,positions,bounds,width,height};
 }
 export function constrainPanelPosition(p,bounds){return bounds?{x:Math.max(bounds.minX,Math.min(bounds.maxX,p.x)),y:Math.max(bounds.minY,Math.min(bounds.maxY,p.y))}:p;}
+
+export function connectionCounts(nodes,edges){
+ const counts=new Map(nodes.map(n=>[n.id,0]));
+ for(const e of edges){if(counts.has(e.from))counts.set(e.from,counts.get(e.from)+1);if(counts.has(e.to))counts.set(e.to,counts.get(e.to)+1);}return counts;
+}
+export function circularCrossings(order,edges){
+ const rank=new Map(order.map((id,i)=>[id,i]));let count=0;
+ for(let i=0;i<edges.length;i++)for(let j=i+1;j<edges.length;j++){
+  const [a,b]=[rank.get(edges[i].from),rank.get(edges[i].to)].sort((a,b)=>a-b),[c,d]=[rank.get(edges[j].from),rank.get(edges[j].to)].sort((a,b)=>a-b);
+  if(a===c||a===d||b===c||b===d)continue;
+  if((a<c&&c<b&&b<d)||(c<a&&a<d&&d<b))count++;
+ }return count;
+}
+const integratedCache=new Map();
+export function layoutIntegrated(nodes,edges){
+ const key=nodes.map(n=>n.id).join('|')+';'+edges.map(e=>e.id+':'+e.from+':'+e.to).join('|');
+ if(integratedCache.has(key)){const old=integratedCache.get(key);return {...old,positions:new Map([...old.positions].map(([id,p])=>[id,{...p}]))};}
+ const adj=new Map(nodes.map(n=>[n.id,[]])),byId=new Map(nodes.map(n=>[n.id,n]));
+ for(const e of edges){adj.get(e.from)?.push(e.to);adj.get(e.to)?.push(e.from);}
+ const seen=new Set(),groups=[],isolated=[];
+ const score=(order,es)=>{const rank=new Map(order.map((id,i)=>[id,i]));return circularCrossings(order,es)*100000+es.reduce((sum,e)=>{const d=Math.abs(rank.get(e.from)-rank.get(e.to));return sum+Math.min(d,order.length-d)**1.5;},0);};
+ for(const n of nodes){
+  if(seen.has(n.id))continue;const ids=[],queue=[n.id];seen.add(n.id);
+  while(queue.length){const id=queue.pop();ids.push(id);for(const next of adj.get(id))if(!seen.has(next)){seen.add(next);queue.push(next);}}
+  if(ids.length===1){isolated.push(n.id);continue;}
+  const members=new Set(ids),es=edges.filter(e=>members.has(e.from));let best=ids,bestScore=Infinity;
+  for(const root of ids){const visited=new Set(),order=[];const walk=id=>{visited.add(id);order.push(id);for(const next of [...adj.get(id)].sort((a,b)=>adj.get(b).length-adj.get(a).length||a.localeCompare(b)))if(!visited.has(next))walk(next);};walk(root);const value=score(order,es);if(value<bestScore){best=order;bestScore=value;}}
+  for(let pass=0;pass<20;pass++){let chosen=null;for(let i=0;i<best.length;i++)for(let j=i+1;j<best.length;j++){const candidate=[...best];[candidate[i],candidate[j]]=[candidate[j],candidate[i]];const value=score(candidate,es);if(value<bestScore-.0001){bestScore=value;chosen=candidate;}}if(!chosen)break;best=chosen;}
+  const radius=Math.max(170,ids.length*34),width=ids.length===2?540:Math.ceil(radius*2+300),height=ids.length===2?230:Math.ceil(radius*2+230);
+  groups.push({ids:best,edges:es,width,height,radius,crossings:circularCrossings(best,es)});
+ }
+ groups.sort((a,b)=>b.ids.length-a.ids.length||byId.get(a.ids[0]).sector.localeCompare(byId.get(b.ids[0]).sector));
+ const positions=new Map(),regions=[];const main=groups[0],mainWidth=main?.width||0;let width=mainWidth,height=0;
+ const place=(g,x,y)=>{g.ids.forEach((id,i)=>{const angle=-Math.PI/2+i*2*Math.PI/g.ids.length;positions.set(id,g.ids.length===2?{x:x+135+i*270,y:y+90}:{x:x+g.width/2+Math.cos(angle)*g.radius,y:y+g.height/2-5+Math.sin(angle)*g.radius});});const leaders=[...g.ids].sort((a,b)=>adj.get(b).length-adj.get(a).length);regions.push({x,y,width:g.width,height:g.height,ids:g.ids,title:leaders.slice(0,2).map(id=>byId.get(id).name).join(' · '),edges:g.edges.length});width=Math.max(width,x+g.width);height=Math.max(height,y+g.height);};
+ if(main)place(main,20,55);
+ const laneWidth=680,columns=groups.length>10?3:groups.length>4?2:1,laneHeights=Array(columns).fill(55),originX=mainWidth?mainWidth+70:20;
+ for(const g of groups.slice(1)){const col=laneHeights.indexOf(Math.min(...laneHeights));place(g,originX+col*laneWidth,laneHeights[col]);laneHeights[col]+=g.height+40;}
+ if(isolated.length){const y=height+65,cols=Math.min(8,Math.max(2,Math.floor(Math.max(width,900)/240)));for(let i=0;i<isolated.length;i++)positions.set(isolated[i],{x:140+(i%cols)*240,y:y+95+Math.floor(i/cols)*180});regions.push({x:20,y,width:Math.max(500,cols*240),height:Math.ceil(isolated.length/cols)*180+70,ids:isolated,title:'연결 미등록',edges:0});width=Math.max(width,cols*240+40);height=y+Math.ceil(isolated.length/cols)*180+70;}
+ const result={positions,regions,width:Math.max(600,width+30),height:Math.max(320,height+30),crossings:groups.reduce((s,g)=>s+g.crossings,0)};
+ integratedCache.set(key,{...result,positions:new Map([...positions].map(([id,p])=>[id,{...p}]))});return result;
+}
+export function relationshipGeometry(edge,positions){
+ const a=positions.get(edge.from),b=positions.get(edge.to);if(!edge.integrated)return edgeGeometry(a,b);
+ const clip=(p,q)=>{const dx=q.x-p.x,dy=q.y-p.y,tx=dx?115/Math.abs(dx):Infinity,ty=dy?(dy>0?104:44)/Math.abs(dy):Infinity;const t=Math.min(tx,ty,.36);return {x:p.x+dx*t,y:p.y+dy*t};};
+ const start=clip(a,b),end=clip(b,a);return {path:`M${start.x},${start.y} L${end.x},${end.y}`};
+}
