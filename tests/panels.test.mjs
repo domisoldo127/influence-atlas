@@ -8,7 +8,7 @@ test('panels repeat entities while preserving all identities, relations and disc
  const p=relationshipPanels(data,2);assert.equal(p.edges.length,data.edges.length);
  assert.equal(new Set(p.nodes.map(n=>n.id)).size,p.nodes.length);assert.deepEqual(new Set(p.nodes.map(n=>n.entityId)),new Set(data.nodes.map(n=>n.id)));
  for(const edge of p.edges){const original=data.edges.find(e=>e.id===edge.id);assert.equal(p.nodes.find(n=>n.id===edge.from).entityId,original.from);assert.equal(p.nodes.find(n=>n.id===edge.to).entityId,original.to);}
- const hierarchy=relationshipPanels(sliceGraph(data,'all','hierarchy'),1);assert.equal(hierarchy.nodes.filter(n=>n.entityId==='realDonaldTrump').length,2);assert.equal(data.nodes.filter(n=>n.id==='realDonaldTrump').length,1);
+ const hierarchy=relationshipPanels(sliceGraph(data,'all','hierarchy'),1);assert.equal(hierarchy.nodes.filter(n=>n.entityId==='realDonaldTrump').length,4);assert.equal(data.nodes.filter(n=>n.id==='realDonaldTrump').length,1);
 });
 test('one and two column layouts keep icons and names clear of other nodes and relationship labels',()=>{
  for(const columns of [1,2]){const p=relationshipPanels(data,columns),labels=layoutEdgeAnnotations(p.edges,p.positions);const boxes=[...p.positions.values()].map(v=>({x:v.x-74,y:v.y-28,w:148,h:83}));

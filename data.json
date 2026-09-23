@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.4",
   "updatedAt": "2026-09-23",
   "sectors": [
     {
@@ -1386,6 +1386,278 @@
       "role": "관계 설명용 연결 노드",
       "checkedAt": "2026-09-22",
       "note": "계정 목록에는 포함되지 않는 관계 설명용 기업·기관입니다."
+    },
+    {
+      "id": "KevinHassett",
+      "name": "케빈 해싯",
+      "en": "Kevin Hassett",
+      "sector": "global",
+      "role": "백악관 국가경제위원회(NEC) 위원장",
+      "kind": "person",
+      "account": false,
+      "checkedAt": "2026-09-23",
+      "verification": "official",
+      "sourceUrl": "https://www.whitehouse.gov/wp-content/uploads/2026/07/2026-Annual-Report-to-Congress-on-White-House-Staff.pdf",
+      "organizationId": "us-admin",
+      "photoStatus": "pending",
+      "addedAt": "2026-09-23",
+      "note": "공식 소개·발표 자료로 직책을 확인했습니다. X 개인 계정 및 팔로우 상태는 확인하지 않았습니다. 사진 미등록으로 현재는 이니셜을 표시합니다."
+    },
+    {
+      "id": "JamiesonGreer",
+      "name": "제이미슨 그리어",
+      "en": "Jamieson Greer",
+      "sector": "global",
+      "role": "미국 무역대표(USTR)",
+      "kind": "person",
+      "account": false,
+      "checkedAt": "2026-09-23",
+      "verification": "official",
+      "sourceUrl": "https://www.whitehouse.gov/administration/cabinet/",
+      "organizationId": "us-admin",
+      "photoStatus": "pending",
+      "addedAt": "2026-09-23",
+      "note": "공식 소개·발표 자료로 직책을 확인했습니다. X 개인 계정 및 팔로우 상태는 확인하지 않았습니다. 사진 미등록으로 현재는 이니셜을 표시합니다."
+    },
+    {
+      "id": "PhilipLane",
+      "name": "필립 레인",
+      "en": "Philip Lane",
+      "sector": "global",
+      "role": "유럽중앙은행 집행이사",
+      "kind": "person",
+      "account": false,
+      "checkedAt": "2026-09-23",
+      "verification": "official",
+      "sourceUrl": "https://www.ecb.europa.eu/ecb/decisions/eb/html/index.en.html",
+      "organizationId": "ecb",
+      "photoStatus": "pending",
+      "addedAt": "2026-09-23",
+      "note": "공식 소개·발표 자료로 직책을 확인했습니다. X 개인 계정 및 팔로우 상태는 확인하지 않았습니다. 사진 미등록으로 현재는 이니셜을 표시합니다."
+    },
+    {
+      "id": "DanielaAmodei",
+      "name": "다니엘라 아모데이",
+      "en": "Daniela Amodei",
+      "sector": "ai",
+      "role": "Anthropic 공동창업자·사장",
+      "kind": "person",
+      "account": false,
+      "checkedAt": "2026-09-23",
+      "verification": "official",
+      "sourceUrl": "https://www.anthropic.com/company/leadership",
+      "organizationId": "anthropic",
+      "photoStatus": "pending",
+      "addedAt": "2026-09-23",
+      "note": "공식 소개·발표 자료로 직책을 확인했습니다. X 개인 계정 및 팔로우 상태는 확인하지 않았습니다. 사진 미등록으로 현재는 이니셜을 표시합니다."
+    },
+    {
+      "id": "JaredKaplan",
+      "name": "재러드 캐플런",
+      "en": "Jared Kaplan",
+      "sector": "ai",
+      "role": "Anthropic 공동창업자·최고과학책임자",
+      "kind": "person",
+      "account": false,
+      "checkedAt": "2026-09-23",
+      "verification": "official",
+      "sourceUrl": "https://www.anthropic.com/company/leadership",
+      "organizationId": "anthropic",
+      "photoStatus": "pending",
+      "addedAt": "2026-09-23",
+      "note": "공식 소개·발표 자료로 직책을 확인했습니다. X 개인 계정 및 팔로우 상태는 확인하지 않았습니다. 사진 미등록으로 현재는 이니셜을 표시합니다."
+    },
+    {
+      "id": "AmiVora",
+      "name": "아미 보라",
+      "en": "Ami Vora",
+      "sector": "ai",
+      "role": "Anthropic 최고제품책임자",
+      "kind": "person",
+      "account": false,
+      "checkedAt": "2026-09-23",
+      "verification": "official",
+      "sourceUrl": "https://www.anthropic.com/company/leadership",
+      "organizationId": "anthropic",
+      "photoStatus": "pending",
+      "addedAt": "2026-09-23",
+      "note": "공식 소개·발표 자료로 직책을 확인했습니다. X 개인 계정 및 팔로우 상태는 확인하지 않았습니다. 사진 미등록으로 현재는 이니셜을 표시합니다."
+    },
+    {
+      "id": "ColetteKress",
+      "name": "콜레트 크레스",
+      "en": "Colette Kress",
+      "sector": "chips",
+      "role": "NVIDIA 수석부사장·최고재무책임자",
+      "kind": "person",
+      "account": false,
+      "checkedAt": "2026-09-23",
+      "verification": "official",
+      "sourceUrl": "https://www.nvidia.com/en-us/about-nvidia/governance/management-team/colette-kress/",
+      "organizationId": "nvidia",
+      "photoStatus": "pending",
+      "addedAt": "2026-09-23",
+      "note": "공식 소개·발표 자료로 직책을 확인했습니다. X 개인 계정 및 팔로우 상태는 확인하지 않았습니다. 사진 미등록으로 현재는 이니셜을 표시합니다."
+    },
+    {
+      "id": "NickParker",
+      "name": "닉 파커",
+      "en": "Nick Parker",
+      "sector": "chips",
+      "role": "NVIDIA 글로벌 사업 담당 수석부사장",
+      "kind": "person",
+      "account": false,
+      "checkedAt": "2026-09-23",
+      "verification": "official",
+      "sourceUrl": "https://nvidianews.nvidia.com/bios/nick-parker",
+      "organizationId": "nvidia",
+      "photoStatus": "pending",
+      "addedAt": "2026-09-23",
+      "note": "공식 소개·발표 자료로 직책을 확인했습니다. X 개인 계정 및 팔로우 상태는 확인하지 않았습니다. 사진 미등록으로 현재는 이니셜을 표시합니다."
+    },
+    {
+      "id": "YoungHyunJun",
+      "name": "전영현",
+      "en": "Young Hyun Jun",
+      "sector": "chips",
+      "role": "삼성전자 대표이사 부회장",
+      "kind": "person",
+      "account": false,
+      "checkedAt": "2026-09-23",
+      "verification": "official",
+      "sourceUrl": "https://research.samsung.com/saif",
+      "organizationId": "SamsungNewsroom",
+      "photoStatus": "pending",
+      "addedAt": "2026-09-23",
+      "note": "공식 소개·발표 자료로 직책을 확인했습니다. X 개인 계정 및 팔로우 상태는 확인하지 않았습니다. 사진 미등록으로 현재는 이니셜을 표시합니다."
+    },
+    {
+      "id": "JaiHyukSong",
+      "name": "송재혁",
+      "en": "Jai Hyuk Song",
+      "sector": "chips",
+      "role": "삼성전자 반도체 최고기술책임자",
+      "kind": "person",
+      "account": false,
+      "checkedAt": "2026-09-23",
+      "verification": "official",
+      "sourceUrl": "https://semiconductor.samsung.com/kr/news-events/tech-blog/samsung-showcases-next-generation-ai-semiconductor-innovations-at-computex-2026/",
+      "organizationId": "SamsungNewsroom",
+      "photoStatus": "pending",
+      "addedAt": "2026-09-23",
+      "note": "공식 소개·발표 자료로 직책을 확인했습니다. X 개인 계정 및 팔로우 상태는 확인하지 않았습니다. 사진 미등록으로 현재는 이니셜을 표시합니다."
+    },
+    {
+      "id": "NohJungKwak",
+      "name": "곽노정",
+      "en": "Noh Jung Kwak",
+      "sector": "chips",
+      "role": "SK하이닉스 대표이사 사장",
+      "kind": "person",
+      "account": false,
+      "checkedAt": "2026-09-23",
+      "verification": "official",
+      "sourceUrl": "https://news.skhynix.com/en/sk-hynix-ceo-kwak-noh-jung-finds-way-forward-for-ai-memory-on-the-ground-at-ces-2026/",
+      "organizationId": "SKhynix",
+      "photoStatus": "pending",
+      "addedAt": "2026-09-23",
+      "note": "공식 소개·발표 자료로 직책을 확인했습니다. X 개인 계정 및 팔로우 상태는 확인하지 않았습니다. 사진 미등록으로 현재는 이니셜을 표시합니다."
+    },
+    {
+      "id": "MonicaLong",
+      "name": "모니카 롱",
+      "en": "Monica Long",
+      "sector": "crypto",
+      "role": "Ripple 사장",
+      "kind": "person",
+      "account": false,
+      "checkedAt": "2026-09-23",
+      "verification": "official",
+      "sourceUrl": "https://ripple.com/company/leadership/",
+      "organizationId": "ripple",
+      "photoStatus": "pending",
+      "addedAt": "2026-09-23",
+      "note": "공식 소개·발표 자료로 직책을 확인했습니다. X 개인 계정 및 팔로우 상태는 확인하지 않았습니다. 사진 미등록으로 현재는 이니셜을 표시합니다."
+    },
+    {
+      "id": "StuartAlderoty",
+      "name": "스튜어트 알데로티",
+      "en": "Stuart Alderoty",
+      "sector": "crypto",
+      "role": "Ripple 최고법률책임자",
+      "kind": "person",
+      "account": false,
+      "checkedAt": "2026-09-23",
+      "verification": "official",
+      "sourceUrl": "https://ripple.com/company/leadership/",
+      "organizationId": "ripple",
+      "photoStatus": "pending",
+      "addedAt": "2026-09-23",
+      "note": "공식 소개·발표 자료로 직책을 확인했습니다. X 개인 계정 및 팔로우 상태는 확인하지 않았습니다. 사진 미등록으로 현재는 이니셜을 표시합니다."
+    },
+    {
+      "id": "ChrisLarsen",
+      "name": "크리스 라슨",
+      "en": "Chris Larsen",
+      "sector": "crypto",
+      "role": "Ripple 공동창업자·이사회 의장",
+      "kind": "person",
+      "account": false,
+      "checkedAt": "2026-09-23",
+      "verification": "official",
+      "sourceUrl": "https://ripple.com/company/leadership/",
+      "organizationId": "ripple",
+      "photoStatus": "pending",
+      "addedAt": "2026-09-23",
+      "note": "공식 소개·발표 자료로 직책을 확인했습니다. X 개인 계정 및 팔로우 상태는 확인하지 않았습니다. 사진 미등록으로 현재는 이니셜을 표시합니다."
+    },
+    {
+      "id": "EuisunChung",
+      "name": "정의선",
+      "en": "Euisun Chung",
+      "sector": "korea",
+      "role": "현대자동차그룹 회장",
+      "kind": "person",
+      "account": false,
+      "checkedAt": "2026-09-23",
+      "verification": "official",
+      "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-group-future-mobility-leadership",
+      "organizationId": "HMGnewsroom",
+      "photoStatus": "pending",
+      "addedAt": "2026-09-23",
+      "note": "공식 소개·발표 자료로 직책을 확인했습니다. X 개인 계정 및 팔로우 상태는 확인하지 않았습니다. 사진 미등록으로 현재는 이니셜을 표시합니다."
+    },
+    {
+      "id": "JaehoonChang",
+      "name": "장재훈",
+      "en": "Jaehoon Chang",
+      "sector": "korea",
+      "role": "현대자동차그룹 부회장",
+      "kind": "person",
+      "account": false,
+      "checkedAt": "2026-09-23",
+      "verification": "official",
+      "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-group-future-mobility-leadership",
+      "organizationId": "HMGnewsroom",
+      "photoStatus": "pending",
+      "addedAt": "2026-09-23",
+      "note": "공식 소개·발표 자료로 직책을 확인했습니다. X 개인 계정 및 팔로우 상태는 확인하지 않았습니다. 사진 미등록으로 현재는 이니셜을 표시합니다."
+    },
+    {
+      "id": "SungKim",
+      "name": "성 김",
+      "en": "Sung Kim",
+      "sector": "korea",
+      "role": "현대자동차그룹 사장",
+      "kind": "person",
+      "account": false,
+      "checkedAt": "2026-09-23",
+      "verification": "official",
+      "sourceUrl": "https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-group-future-mobility-leadership",
+      "organizationId": "HMGnewsroom",
+      "photoStatus": "pending",
+      "addedAt": "2026-09-23",
+      "note": "공식 소개·발표 자료로 직책을 확인했습니다. X 개인 계정 및 팔로우 상태는 확인하지 않았습니다. 사진 미등록으로 현재는 이니셜을 표시합니다."
     }
   ],
   "edges": [
@@ -2341,6 +2613,341 @@
           "url": "https://openai.com/index/court-rejects-elon/"
         }
       ]
+    },
+    {
+      "id": "e51",
+      "from": "realDonaldTrump",
+      "to": "KevinHassett",
+      "type": "hierarchy",
+      "label": "대통령 → 경제보좌",
+      "graphLabel": "대통령 → 경제보좌",
+      "summary": "트럼프 대통령의 행정부에서 케빈 해싯은 백악관 국가경제위원회(NEC) 위원장 직무를 맡습니다. 대통령과 경제·통상 책임자의 공식 직무 관계입니다.",
+      "sources": [
+        {
+          "title": "공식 직책·관계 확인 자료",
+          "url": "https://www.whitehouse.gov/wp-content/uploads/2026/07/2026-Annual-Report-to-Congress-on-White-House-Staff.pdf"
+        }
+      ],
+      "checkedAt": "2026-09-23",
+      "status": "documented",
+      "directed": true,
+      "note": "공식 직무와 자료에 명시된 역할에 한정해 표시합니다."
+    },
+    {
+      "id": "e52",
+      "from": "realDonaldTrump",
+      "to": "JamiesonGreer",
+      "type": "hierarchy",
+      "label": "대통령 → 무역대표",
+      "graphLabel": "대통령 → 무역대표",
+      "summary": "트럼프 대통령의 행정부에서 제이미슨 그리어은 미국 무역대표(USTR) 직무를 맡습니다. 대통령과 경제·통상 책임자의 공식 직무 관계입니다.",
+      "sources": [
+        {
+          "title": "공식 직책·관계 확인 자료",
+          "url": "https://www.whitehouse.gov/administration/cabinet/"
+        }
+      ],
+      "checkedAt": "2026-09-23",
+      "status": "documented",
+      "directed": true,
+      "note": "공식 직무와 자료에 명시된 역할에 한정해 표시합니다."
+    },
+    {
+      "id": "e53",
+      "from": "Lagarde",
+      "to": "PhilipLane",
+      "type": "team",
+      "label": "ECB · 집행부",
+      "graphLabel": "ECB · 집행부",
+      "summary": "크리스틴 라가르드 · 필립 레인: 두 사람은 유럽중앙은행의 경영·정책 담당자로 공식 자료에 소개됩니다. 필립 레인의 역할은 유럽중앙은행 집행이사입니다.",
+      "sources": [
+        {
+          "title": "공식 직책·관계 확인 자료",
+          "url": "https://www.ecb.europa.eu/ecb/decisions/eb/html/index.en.html"
+        }
+      ],
+      "checkedAt": "2026-09-23",
+      "status": "documented",
+      "directed": false,
+      "note": "공식 자료에 함께 기재된 경영진·정책 담당자 관계입니다. 개인적 친분이나 직접 보고 체계를 뜻하지 않습니다."
+    },
+    {
+      "id": "e54",
+      "from": "DarioAmodei",
+      "to": "DanielaAmodei",
+      "type": "team",
+      "label": "Anthropic · 경영진",
+      "graphLabel": "Anthropic · 경영진",
+      "summary": "다리오 아모데이 · 다니엘라 아모데이: 두 사람은 Anthropic의 경영·정책 담당자로 공식 자료에 소개됩니다. 다니엘라 아모데이의 역할은 Anthropic 공동창업자·사장입니다.",
+      "sources": [
+        {
+          "title": "공식 직책·관계 확인 자료",
+          "url": "https://www.anthropic.com/company/leadership"
+        }
+      ],
+      "checkedAt": "2026-09-23",
+      "status": "documented",
+      "directed": false,
+      "note": "공식 자료에 함께 기재된 경영진·정책 담당자 관계입니다. 개인적 친분이나 직접 보고 체계를 뜻하지 않습니다."
+    },
+    {
+      "id": "e55",
+      "from": "DarioAmodei",
+      "to": "JaredKaplan",
+      "type": "team",
+      "label": "Anthropic · 경영진",
+      "graphLabel": "Anthropic · 경영진",
+      "summary": "다리오 아모데이 · 재러드 캐플런: 두 사람은 Anthropic의 경영·정책 담당자로 공식 자료에 소개됩니다. 재러드 캐플런의 역할은 Anthropic 공동창업자·최고과학책임자입니다.",
+      "sources": [
+        {
+          "title": "공식 직책·관계 확인 자료",
+          "url": "https://www.anthropic.com/company/leadership"
+        }
+      ],
+      "checkedAt": "2026-09-23",
+      "status": "documented",
+      "directed": false,
+      "note": "공식 자료에 함께 기재된 경영진·정책 담당자 관계입니다. 개인적 친분이나 직접 보고 체계를 뜻하지 않습니다."
+    },
+    {
+      "id": "e56",
+      "from": "DarioAmodei",
+      "to": "AmiVora",
+      "type": "team",
+      "label": "Anthropic · 경영진",
+      "graphLabel": "Anthropic · 경영진",
+      "summary": "다리오 아모데이 · 아미 보라: 두 사람은 Anthropic의 경영·정책 담당자로 공식 자료에 소개됩니다. 아미 보라의 역할은 Anthropic 최고제품책임자입니다.",
+      "sources": [
+        {
+          "title": "공식 직책·관계 확인 자료",
+          "url": "https://www.anthropic.com/company/leadership"
+        }
+      ],
+      "checkedAt": "2026-09-23",
+      "status": "documented",
+      "directed": false,
+      "note": "공식 자료에 함께 기재된 경영진·정책 담당자 관계입니다. 개인적 친분이나 직접 보고 체계를 뜻하지 않습니다."
+    },
+    {
+      "id": "e57",
+      "from": "JensenHuang",
+      "to": "ColetteKress",
+      "type": "team",
+      "label": "NVIDIA · 경영진",
+      "graphLabel": "NVIDIA · 경영진",
+      "summary": "젠슨 황 · 콜레트 크레스: 두 사람은 NVIDIA의 경영·정책 담당자로 공식 자료에 소개됩니다. 콜레트 크레스의 역할은 NVIDIA 수석부사장·최고재무책임자입니다.",
+      "sources": [
+        {
+          "title": "공식 직책·관계 확인 자료",
+          "url": "https://www.nvidia.com/en-us/about-nvidia/governance/management-team/colette-kress/"
+        },
+        {
+          "title": "NVIDIA 경영진 공식 소개",
+          "url": "https://nvidianews.nvidia.com/bios"
+        }
+      ],
+      "checkedAt": "2026-09-23",
+      "status": "documented",
+      "directed": false,
+      "note": "공식 자료에 함께 기재된 경영진·정책 담당자 관계입니다. 개인적 친분이나 직접 보고 체계를 뜻하지 않습니다."
+    },
+    {
+      "id": "e58",
+      "from": "JensenHuang",
+      "to": "NickParker",
+      "type": "team",
+      "label": "NVIDIA · 경영진",
+      "graphLabel": "NVIDIA · 경영진",
+      "summary": "젠슨 황 · 닉 파커: 두 사람은 NVIDIA의 경영·정책 담당자로 공식 자료에 소개됩니다. 닉 파커의 역할은 NVIDIA 글로벌 사업 담당 수석부사장입니다.",
+      "sources": [
+        {
+          "title": "공식 직책·관계 확인 자료",
+          "url": "https://nvidianews.nvidia.com/bios/nick-parker"
+        },
+        {
+          "title": "NVIDIA 경영진 공식 소개",
+          "url": "https://nvidianews.nvidia.com/bios"
+        }
+      ],
+      "checkedAt": "2026-09-23",
+      "status": "documented",
+      "directed": false,
+      "note": "공식 자료에 함께 기재된 경영진·정책 담당자 관계입니다. 개인적 친분이나 직접 보고 체계를 뜻하지 않습니다."
+    },
+    {
+      "id": "e59",
+      "from": "YoungHyunJun",
+      "to": "SamsungNewsroom",
+      "type": "affiliation",
+      "label": "역할 · 대표이사",
+      "graphLabel": "역할 · 대표이사",
+      "summary": "전영현은 공식 소개·발표 자료에서 삼성전자 대표이사 부회장으로 소개됩니다. 인물과 해당 조직의 직책 연결입니다.",
+      "sources": [
+        {
+          "title": "공식 직책·관계 확인 자료",
+          "url": "https://research.samsung.com/saif"
+        }
+      ],
+      "checkedAt": "2026-09-23",
+      "status": "documented",
+      "directed": false,
+      "note": "공식 직무와 자료에 명시된 역할에 한정해 표시합니다."
+    },
+    {
+      "id": "e60",
+      "from": "NohJungKwak",
+      "to": "SKhynix",
+      "type": "affiliation",
+      "label": "역할 · 대표이사",
+      "graphLabel": "역할 · 대표이사",
+      "summary": "곽노정은 공식 소개·발표 자료에서 SK하이닉스 대표이사 사장으로 소개됩니다. 인물과 해당 조직의 직책 연결입니다.",
+      "sources": [
+        {
+          "title": "공식 직책·관계 확인 자료",
+          "url": "https://news.skhynix.com/en/sk-hynix-ceo-kwak-noh-jung-finds-way-forward-for-ai-memory-on-the-ground-at-ces-2026/"
+        }
+      ],
+      "checkedAt": "2026-09-23",
+      "status": "documented",
+      "directed": false,
+      "note": "공식 직무와 자료에 명시된 역할에 한정해 표시합니다."
+    },
+    {
+      "id": "e61",
+      "from": "EuisunChung",
+      "to": "HMGnewsroom",
+      "type": "affiliation",
+      "label": "역할 · 그룹 회장",
+      "graphLabel": "역할 · 그룹 회장",
+      "summary": "정의선은 공식 소개·발표 자료에서 현대자동차그룹 회장으로 소개됩니다. 인물과 해당 조직의 직책 연결입니다.",
+      "sources": [
+        {
+          "title": "공식 직책·관계 확인 자료",
+          "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-group-future-mobility-leadership"
+        }
+      ],
+      "checkedAt": "2026-09-23",
+      "status": "documented",
+      "directed": false,
+      "note": "공식 직무와 자료에 명시된 역할에 한정해 표시합니다."
+    },
+    {
+      "id": "e62",
+      "from": "YoungHyunJun",
+      "to": "JaiHyukSong",
+      "type": "team",
+      "label": "삼성전자 · 경영진",
+      "graphLabel": "삼성전자 · 경영진",
+      "summary": "전영현 · 송재혁: 두 사람은 삼성전자의 경영·정책 담당자로 공식 자료에 소개됩니다. 송재혁의 역할은 삼성전자 반도체 최고기술책임자입니다.",
+      "sources": [
+        {
+          "title": "공식 직책·관계 확인 자료",
+          "url": "https://semiconductor.samsung.com/kr/news-events/tech-blog/samsung-showcases-next-generation-ai-semiconductor-innovations-at-computex-2026/"
+        },
+        {
+          "title": "공식 직책·관계 확인 자료",
+          "url": "https://research.samsung.com/saif"
+        }
+      ],
+      "checkedAt": "2026-09-23",
+      "status": "documented",
+      "directed": false,
+      "note": "공식 자료에 함께 기재된 경영진·정책 담당자 관계입니다. 개인적 친분이나 직접 보고 체계를 뜻하지 않습니다."
+    },
+    {
+      "id": "e63",
+      "from": "bgarlinghouse",
+      "to": "MonicaLong",
+      "type": "team",
+      "label": "Ripple · 경영진",
+      "graphLabel": "Ripple · 경영진",
+      "summary": "브래드 갈링하우스 · 모니카 롱: 두 사람은 Ripple의 경영·정책 담당자로 공식 자료에 소개됩니다. 모니카 롱의 역할은 Ripple 사장입니다.",
+      "sources": [
+        {
+          "title": "공식 직책·관계 확인 자료",
+          "url": "https://ripple.com/company/leadership/"
+        }
+      ],
+      "checkedAt": "2026-09-23",
+      "status": "documented",
+      "directed": false,
+      "note": "공식 자료에 함께 기재된 경영진·정책 담당자 관계입니다. 개인적 친분이나 직접 보고 체계를 뜻하지 않습니다."
+    },
+    {
+      "id": "e64",
+      "from": "bgarlinghouse",
+      "to": "StuartAlderoty",
+      "type": "team",
+      "label": "Ripple · 경영진",
+      "graphLabel": "Ripple · 경영진",
+      "summary": "브래드 갈링하우스 · 스튜어트 알데로티: 두 사람은 Ripple의 경영·정책 담당자로 공식 자료에 소개됩니다. 스튜어트 알데로티의 역할은 Ripple 최고법률책임자입니다.",
+      "sources": [
+        {
+          "title": "공식 직책·관계 확인 자료",
+          "url": "https://ripple.com/company/leadership/"
+        }
+      ],
+      "checkedAt": "2026-09-23",
+      "status": "documented",
+      "directed": false,
+      "note": "공식 자료에 함께 기재된 경영진·정책 담당자 관계입니다. 개인적 친분이나 직접 보고 체계를 뜻하지 않습니다."
+    },
+    {
+      "id": "e65",
+      "from": "bgarlinghouse",
+      "to": "ChrisLarsen",
+      "type": "team",
+      "label": "Ripple · 경영진",
+      "graphLabel": "Ripple · 경영진",
+      "summary": "브래드 갈링하우스 · 크리스 라슨: 두 사람은 Ripple의 경영·정책 담당자로 공식 자료에 소개됩니다. 크리스 라슨의 역할은 Ripple 공동창업자·이사회 의장입니다.",
+      "sources": [
+        {
+          "title": "공식 직책·관계 확인 자료",
+          "url": "https://ripple.com/company/leadership/"
+        }
+      ],
+      "checkedAt": "2026-09-23",
+      "status": "documented",
+      "directed": false,
+      "note": "공식 자료에 함께 기재된 경영진·정책 담당자 관계입니다. 개인적 친분이나 직접 보고 체계를 뜻하지 않습니다."
+    },
+    {
+      "id": "e66",
+      "from": "EuisunChung",
+      "to": "JaehoonChang",
+      "type": "team",
+      "label": "현대차그룹 · 경영진",
+      "graphLabel": "현대차그룹 · 경영진",
+      "summary": "정의선 · 장재훈: 두 사람은 현대자동차그룹의 경영·정책 담당자로 공식 자료에 소개됩니다. 장재훈의 역할은 현대자동차그룹 부회장입니다.",
+      "sources": [
+        {
+          "title": "공식 직책·관계 확인 자료",
+          "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-group-future-mobility-leadership"
+        }
+      ],
+      "checkedAt": "2026-09-23",
+      "status": "documented",
+      "directed": false,
+      "note": "공식 자료에 함께 기재된 경영진·정책 담당자 관계입니다. 개인적 친분이나 직접 보고 체계를 뜻하지 않습니다."
+    },
+    {
+      "id": "e67",
+      "from": "EuisunChung",
+      "to": "SungKim",
+      "type": "team",
+      "label": "현대차그룹 · 경영진",
+      "graphLabel": "현대차그룹 · 경영진",
+      "summary": "정의선 · 성 김: 두 사람은 현대자동차그룹의 경영·정책 담당자로 공식 자료에 소개됩니다. 성 김의 역할은 현대자동차그룹 사장입니다.",
+      "sources": [
+        {
+          "title": "공식 직책·관계 확인 자료",
+          "url": "https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-group-future-mobility-leadership"
+        }
+      ],
+      "checkedAt": "2026-09-23",
+      "status": "documented",
+      "directed": false,
+      "note": "공식 자료에 함께 기재된 경영진·정책 담당자 관계입니다. 개인적 친분이나 직접 보고 체계를 뜻하지 않습니다."
     }
   ],
   "statements": [],

@@ -2,11 +2,11 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
 const data=JSON.parse(readFileSync(new URL('../data.json',import.meta.url),'utf8'));
-test('every person has a traceable portrait and organizations retain their own visual identity',()=>{
+test('existing portraits retain provenance and new people explicitly mark pending photos',()=>{
  const people=data.nodes.filter(n=>n.kind==='person');
- assert.equal(people.length,37);
+ assert.equal(people.filter(n=>n.photo).length,37);
  for(const n of people){
-  assert.ok(n.photo,n.id);
+  if(!n.photo){assert.equal(n.photoStatus,'pending',n.id);assert.equal(n.verification,'official');assert.equal(new URL(n.sourceUrl).protocol,'https:');continue;}
   for(const field of ['sourceUrl','licenseUrl'])assert.equal(new URL(n.photo[field]).protocol,'https:',n.id);
   for(const field of ['author','license','displayNote','checkedAt'])assert.ok(n.photo[field]?.trim(),n.id+' '+field);
   if(n.photo.url.startsWith('./portraits/')){

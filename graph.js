@@ -1,4 +1,5 @@
-export function sliceGraph(data,sector='chips',relation='all'){
+export function sliceGraph(data,sector='chips',relation='all',entity='all'){
+ if(entity==='people'){const nodes=data.nodes.filter(n=>n.kind==='person'),ids=new Set(nodes.map(n=>n.id));data={...data,nodes,edges:data.edges.filter(e=>ids.has(e.from)&&ids.has(e.to))};}
  const base=new Set(data.nodes.filter(n=>sector==='all'||n.sector===sector).map(n=>n.id));
  const edges=data.edges.filter(e=>(relation==='all'||e.type===relation)&&(base.has(e.from)||base.has(e.to)));
  const ids=new Set([...(relation==='all'?base:[]),...edges.flatMap(e=>[e.from,e.to])]);
@@ -72,7 +73,7 @@ export function layoutEdgeAnnotations(edges,positions){
 // Each relationship gets its own pair of display instances. Entity data stays unique.
 export function relationshipPanels(graph,columns=2){
  const nodes=[],edges=[],panels=[],positions=new Map(),bounds=new Map(),byId=new Map(graph.nodes.map(n=>[n.id,n]));
- const order=['conflict','competition','support','hierarchy','partnership','affiliation','history'];
+ const order=['conflict','competition','support','hierarchy','partnership','team','affiliation','history'];
  const sorted=[...graph.edges].sort((a,b)=>order.indexOf(a.type)-order.indexOf(b.type)||Number(a.id.slice(1))-Number(b.id.slice(1)));
  const linked=new Set(graph.edges.flatMap(e=>[e.from,e.to]));
  const entries=[...sorted.map(e=>({edge:e})),...graph.nodes.filter(n=>!linked.has(n.id)).map(n=>({node:n}))];
@@ -116,7 +117,17 @@ export function layoutIntegrated(nodes,edges){
   if(ids.length===1){isolated.push(n.id);continue;}
   const members=new Set(ids),es=edges.filter(e=>members.has(e.from));let best=ids,bestScore=Infinity;
   for(const root of ids){const visited=new Set(),order=[];const walk=id=>{visited.add(id);order.push(id);for(const next of [...adj.get(id)].sort((a,b)=>adj.get(b).length-adj.get(a).length||a.localeCompare(b)))if(!visited.has(next))walk(next);};walk(root);const value=score(order,es);if(value<bestScore){best=order;bestScore=value;}}
+  // A single cycle with attached trees has an exact crossing-free circular order.
+  const core=new Map(ids.map(id=>[id,new Set(adj.get(id))])),leaves=[...core].filter(([,ns])=>ns.size<2).map(([id])=>id);
+  while(leaves.length){const id=leaves.pop();if(!core.has(id))continue;for(const next of core.get(id)){core.get(next).delete(id);if(core.get(next).size===1)leaves.push(next);}core.delete(id);}
+  if(core.size&&[...core.values()].every(ns=>ns.size===2)){
+   const cycle=[],first=core.keys().next().value;let id=first,previous=null;
+   do{cycle.push(id);const next=[...core.get(id)].find(n=>n!==previous);previous=id;id=next;}while(id!==first&&cycle.length<=core.size);
+   if(cycle.length===core.size){const order=[],visited=new Set();const branch=id=>{visited.add(id);order.push(id);for(const next of adj.get(id))if(!core.has(next)&&!visited.has(next))branch(next);};for(const id of cycle)branch(id);const value=score(order,es);if(value<bestScore){best=order;bestScore=value;}}
+  }
   for(let pass=0;pass<20;pass++){let chosen=null;for(let i=0;i<best.length;i++)for(let j=i+1;j<best.length;j++){const candidate=[...best];[candidate[i],candidate[j]]=[candidate[j],candidate[i]];const value=score(candidate,es);if(value<bestScore-.0001){bestScore=value;chosen=candidate;}}if(!chosen)break;best=chosen;}
+  // Node relocations keep branches beside their parent on the circle.
+  for(let pass=0;pass<30;pass++){let chosen=null;for(let i=0;i<best.length;i++)for(let j=0;j<best.length;j++){if(i===j)continue;const candidate=[...best],item=candidate.splice(i,1)[0];candidate.splice(j,0,item);const value=score(candidate,es);if(value<bestScore-.0001){bestScore=value;chosen=candidate;}}if(!chosen)break;best=chosen;}
   const radius=Math.max(170,ids.length*34),width=ids.length===2?540:Math.ceil(radius*2+300),height=ids.length===2?230:Math.ceil(radius*2+230);
   groups.push({ids:best,edges:es,width,height,radius,crossings:circularCrossings(best,es)});
  }

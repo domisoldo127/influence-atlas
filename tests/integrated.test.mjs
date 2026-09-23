@@ -12,8 +12,8 @@ test('integrated baseline preserves every entity and has no intersecting relatio
  assert.equal(p.crossings,0);
 });
 test('connection badges count only displayed relationships, including zero connections',()=>{
- const all=connectionCounts(data.nodes,data.edges);assert.equal(all.get('realDonaldTrump'),3);assert.equal(all.get('karpathy'),0);assert.equal([...all.values()].reduce((a,b)=>a+b,0),data.edges.length*2);
- const h=sliceGraph(data,'all','hierarchy'),counts=connectionCounts(h.nodes,h.edges);assert.equal(counts.get('realDonaldTrump'),2);assert.equal([...counts.values()].reduce((a,b)=>a+b,0),4);
+ const all=connectionCounts(data.nodes,data.edges);assert.equal(all.get('realDonaldTrump'),5);assert.equal(all.get('karpathy'),0);assert.equal([...all.values()].reduce((a,b)=>a+b,0),data.edges.length*2);
+ const h=sliceGraph(data,'all','hierarchy'),counts=connectionCounts(h.nodes,h.edges);assert.equal(counts.get('realDonaldTrump'),4);assert.equal([...counts.values()].reduce((a,b)=>a+b,0),8);
 });
 test('filter layouts, empty maps and dragging do not corrupt cached baseline positions',()=>{
  for(const type of new Set(data.edges.map(e=>e.type))){const g=sliceGraph(data,'all',type),p=layoutIntegrated(g.nodes,g.edges);assert.equal(p.positions.size,g.nodes.length);for(const e of g.edges){const line=relationshipGeometry({...e,integrated:true},p.positions);assert.ok(!/NaN|Infinity/.test(line.path));}}
