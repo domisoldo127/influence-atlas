@@ -54,6 +54,7 @@ export function layoutEdgeAnnotations(edges,positions){
   const a=positions.get(e.from),b=positions.get(e.to);if(!a||!b)continue;
   const {ux,uy}=edgeGeometry(a,b),text=e.graphLabel||e.label;
   const width=20+[...text].reduce((n,c)=>n+(/[^\x00-\xff]/.test(c)?12:6.8),0),height=26;
+  if(e.panel){const x=e.panel.x+e.panel.width/2,y=e.panel.y+45;result.set(e.id,{x,y,width,height,anchor:{x:(a.x+b.x)/2,y:(a.y+b.y)/2}});continue;}
   let best;
   for(const t of [.5,.35,.65,.23,.77])for(const offset of [-18,18,-40,40,-65,65]){
    const anchor={x:a.x+(b.x-a.x)*t,y:a.y+(b.y-a.y)*t};
@@ -66,3 +67,24 @@ export function layoutEdgeAnnotations(edges,positions){
  }
  return result;
 }
+
+// Each relationship gets its own pair of display instances. Entity data stays unique.
+export function relationshipPanels(graph,columns=2){
+ const nodes=[],edges=[],panels=[],positions=new Map(),bounds=new Map(),byId=new Map(graph.nodes.map(n=>[n.id,n]));
+ const order=['conflict','competition','support','hierarchy','partnership','affiliation','history'];
+ const sorted=[...graph.edges].sort((a,b)=>order.indexOf(a.type)-order.indexOf(b.type)||Number(a.id.slice(1))-Number(b.id.slice(1)));
+ const linked=new Set(graph.edges.flatMap(e=>[e.from,e.to]));
+ const entries=[...sorted.map(e=>({edge:e})),...graph.nodes.filter(n=>!linked.has(n.id)).map(n=>({node:n}))];
+ const width=columns*520,height=Math.max(240,Math.ceil(entries.length/columns)*220+20);
+ entries.forEach((entry,i)=>{
+  const panel={x:10+(i%columns)*520,y:10+Math.floor(i/columns)*220,width:500,height:204,type:entry.edge?.type||'unlinked',edgeId:entry.edge?.id,index:i+1};panels.push(panel);
+  const add=(entity,side)=>{const id=entry.edge?entry.edge.id+'::'+entity.id:'loose::'+entity.id;
+   const node={...entity,id,entityId:entity.id};nodes.push(node);
+   const x=panel.x+(side===0?95:side===1?405:250),y=panel.y+112;
+   positions.set(id,{x,y});bounds.set(id,{minX:x-18,maxX:x+18,minY:y-12,maxY:y+12});return id;};
+  if(entry.edge){const from=add(byId.get(entry.edge.from),0),to=add(byId.get(entry.edge.to),1);edges.push({...entry.edge,from,to,panel});}
+  else add(entry.node,2);
+ });
+ return {nodes,edges,panels,positions,bounds,width,height};
+}
+export function constrainPanelPosition(p,bounds){return bounds?{x:Math.max(bounds.minX,Math.min(bounds.maxX,p.x)),y:Math.max(bounds.minY,Math.min(bounds.maxY,p.y))}:p;}

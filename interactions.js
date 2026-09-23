@@ -50,10 +50,10 @@ export function createLayoutStore(getStorage, validIds, onError=()=>{}) {
   clear(sector){cache.set(sector,new Map());try {getStorage().removeItem(key(sector));} catch {onError();}}
  };
 }
-export function attachMapInteractions({svg,camera,getPositions,getEdges,getSector,store,transform}) {
+export function attachMapInteractions({svg,camera,getPositions,getEdges,getSector,store,transform,getCenter,scrollWheel=()=>false,constrain=(id,p)=>p}) {
  const pointers=new Map();
  let gesture=null,ignoreClick=false,dirtyNode=null;
- const center=()=>({x:svg.viewBox.baseVal.width/2,y:svg.viewBox.baseVal.height/2});
+ const center=()=>getCenter?getCenter():({x:svg.viewBox.baseVal.width/2,y:svg.viewBox.baseVal.height/2});
  const point=e=>{
   const p=svg.createSVGPoint();p.x=e.clientX;p.y=e.clientY;
   return p.matrixTransform(svg.getScreenCTM().inverse());
@@ -62,6 +62,7 @@ export function attachMapInteractions({svg,camera,getPositions,getEdges,getSecto
   if(dirtyNode){store.set(getSector(),dirtyNode,getPositions().get(dirtyNode));dirtyNode=null;}
  };
  function updateNode(id,p) {
+  p=constrain(id,p);
   getPositions().set(id,p);
   const node=[...svg.querySelectorAll('[data-node]')].find(el=>el.dataset.node===id);
   node?.setAttribute('transform',`translate(${p.x},${p.y})`);
@@ -123,6 +124,7 @@ export function attachMapInteractions({svg,camera,getPositions,getEdges,getSecto
  svg.addEventListener('pointercancel',finish);
  svg.addEventListener('lostpointercapture',finish);
  svg.addEventListener('wheel',e=>{
+  if(scrollWheel()&&!e.ctrlKey&&!e.metaKey)return;
   e.preventDefault();if(pointers.size)return;
   const delta=e.deltaY*(e.deltaMode===1?16:e.deltaMode===2?svg.clientHeight:1);
   Object.assign(camera,zoomAt(camera,center(),point(e),camera.zoom*Math.exp(-Math.max(-300,Math.min(300,delta))*.002)));
@@ -133,7 +135,7 @@ export function attachMapInteractions({svg,camera,getPositions,getEdges,getSecto
   if(node&&steps[e.key]){
    e.preventDefault();const id=node.dataset.node,p=getPositions().get(id),step=e.shiftKey?50:10;
    const next={x:p.x+steps[e.key][0]*step,y:p.y+steps[e.key][1]*step};
-   updateNode(id,next);store.set(getSector(),id,next);
+   updateNode(id,next);store.set(getSector(),id,getPositions().get(id));
   }
  });
  return {zoom(factor){Object.assign(camera,zoomAt(camera,center(),center(),camera.zoom*factor));transform();}};
