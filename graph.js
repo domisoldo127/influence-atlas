@@ -56,6 +56,7 @@ export function layoutEdgeAnnotations(edges,positions){
   const a=positions.get(e.from),b=positions.get(e.to);if(!a||!b)continue;
   const {ux,uy}=edgeGeometry(a,b),text=e.graphLabel||e.label;
   const width=20+[...text].reduce((n,c)=>n+(/[^\x00-\xff]/.test(c)?12:6.8),0),height=26;
+  if(e.board){const target=positions.get(e.board.otherId);result.set(e.id,{x:target.x-176,y:target.y-18,width,height,anchor:{x:target.x-176,y:target.y}});continue;}
   if(e.panel){const x=e.panel.x+e.panel.width/2,y=e.panel.y+45;result.set(e.id,{x,y,width,height,anchor:{x:(a.x+b.x)/2,y:(a.y+b.y)/2}});continue;}
   let best;
   for(const t of [.5,.35,.65,.23,.77])for(const offset of [-18,18,-40,40,-65,65]){
@@ -142,7 +143,37 @@ export function layoutIntegrated(nodes,edges){
  integratedCache.set(key,{...result,positions:new Map([...positions].map(([id,p])=>[id,{...p}]))});return result;
 }
 export function relationshipGeometry(edge,positions){
- const a=positions.get(edge.from),b=positions.get(edge.to);if(!edge.integrated)return edgeGeometry(a,b);
+ const a=positions.get(edge.from),b=positions.get(edge.to);
+ if(edge.board){const root=positions.get(edge.board.rootId),other=positions.get(edge.board.otherId),start={x:root.x+34,y:root.y},end={x:other.x-34,y:other.y};const bend={x:other.x-160,y:other.y};
+  return {path:edge.from===edge.board.rootId?`M${start.x},${start.y} C${root.x+156},${root.y} ${other.x-250},${other.y} ${bend.x},${bend.y} L${end.x},${end.y}`:`M${end.x},${end.y} L${bend.x},${bend.y} C${other.x-250},${other.y} ${root.x+156},${root.y} ${start.x},${start.y}`};
+ }
+ if(!edge.integrated)return edgeGeometry(a,b);
  const clip=(p,q)=>{const dx=q.x-p.x,dy=q.y-p.y,tx=dx?115/Math.abs(dx):Infinity,ty=dy?(dy>0?104:44)/Math.abs(dy):Infinity;const t=Math.min(tx,ty,.36);return {x:p.x+dx*t,y:p.y+dy*t};};
  const start=clip(a,b),end=clip(b,a);return {path:`M${start.x},${start.y} L${end.x},${end.y}`};
+}
+
+// Compact relationship neighborhoods: every edge belongs to one panel, identities stay canonical.
+export function relationshipBoard(graph,columns=2,includeIsolated=false,selected=null){
+ const byId=new Map(graph.nodes.map(n=>[n.id,n])),counts=connectionCounts(graph.nodes,graph.edges),remaining=new Set(graph.edges.map(e=>e.id));
+ const nodes=[],edges=[],panels=[],positions=new Map(),bounds=new Map(),groups=[];
+ while(remaining.size){
+  const pending=graph.edges.filter(e=>remaining.has(e.id)),degree=connectionCounts(graph.nodes,pending);
+  const root=[...graph.nodes].sort((a,b)=>degree.get(b.id)-degree.get(a.id)||pending.filter(e=>e.directed&&e.from===b.id).length-pending.filter(e=>e.directed&&e.from===a.id).length||a.id.localeCompare(b.id))[0];
+  const incident=pending.filter(e=>e.from===root.id||e.to===root.id);incident.forEach(e=>remaining.delete(e.id));
+  groups.push({root,incident,members:[...new Set(incident.map(e=>e.from===root.id?e.to:e.from))]});
+ }
+ const loose=graph.nodes.filter(n=>!counts.get(n.id));
+ const shownLoose=includeIsolated?loose:loose.filter(n=>n.id===selected);
+ for(let i=0;i<shownLoose.length;i+=3)groups.push({loose:shownLoose.slice(i,i+3),incident:[]});
+ const heights=Array(columns).fill(16),width=columns*640+16;
+ for(const group of groups){
+  const col=heights.indexOf(Math.min(...heights)),x=16+col*640,y=heights[col],height=group.loose?236:Math.max(296,group.members.length*142+96);
+  const panel={x,y,width:624,height,root:group.root,types:[...new Set(group.incident.map(e=>e.type))],size:group.loose?.length||group.members.length+1,edgeCount:group.incident.length,loose:!!group.loose};panels.push(panel);heights[col]+=height+16;
+  const add=(n,px,py)=>{const id='board:'+ (group.root?.id||'loose')+':'+n.id;nodes.push({...n,id,entityId:n.id});positions.set(id,{x:px,y:py});bounds.set(id,{minX:px-8,maxX:px+8,minY:py-8,maxY:py+8});return id;};
+  if(group.loose){group.loose.forEach((n,i)=>add(n,x+104+i*208,y+113));continue;}
+  const rootId=add(group.root,x+120,y+95+(group.members.length-1)*71),memberIds=new Map();
+  group.members.forEach((id,i)=>memberIds.set(id,add(byId.get(id),x+480,y+95+i*142)));
+  for(const edge of group.incident){const other=edge.from===group.root.id?edge.to:edge.from;edges.push({...edge,from:edge.from===group.root.id?rootId:memberIds.get(other),to:edge.to===group.root.id?rootId:memberIds.get(other),board:{rootId,otherId:memberIds.get(other),panel}});}
+ }
+ return {nodes,edges,panels,positions,bounds,width,height:Math.max(300,...heights),looseCount:loose.length};
 }
