@@ -7,7 +7,9 @@ const portrait=n=>`<span class="catalog-avatar">${esc(initial(n))}${n.photo?`<im
 const dateRange=r=>`${r.start?r.start.slice(0,4)+'년':'시작 시점 미등록'} → ${r.end?r.end.slice(0,4)+'년':'종료 시점 미등록'} · 원문 날짜 정밀도 미확인`;
 const basisNames={cumulative:'해당 기간 누적액',payment:'지급 기록',ceiling:'최대 한도',announced:'발표 금액',undisclosed:'비공개'};
 async function json(file){
-  const response=await fetch(new URL(file,import.meta.url));
+  // 배포 전후의 캐시가 섞여 인물 수와 관계 수가 다른 스냅샷을 보이지 않게 합니다.
+  const url=new URL(file,import.meta.url);url.searchParams.set('v','2026-10-20-2');
+  const response=await fetch(url,{cache:'no-cache'});
   if(!response.ok)throw new Error('불러오기 실패: '+file);
   return response.json();
 }

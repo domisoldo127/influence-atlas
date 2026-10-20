@@ -1,4 +1,4 @@
-import {mountExplorer} from './explorer.js';
+import {mountExplorer} from './explorer.js?v=2.0.1';
 import {createLayoutStore,attachMapInteractions} from './interactions.js';
 import {sliceGraph,searchNodes,neighbors,layoutGraph,layoutOverview,overviewRegions,edgeGeometry,layoutEdgeAnnotations,relationshipPanels,constrainPanelPosition,layoutIntegrated,connectionCounts,relationshipGeometry,relationshipBoard} from './graph.js';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
