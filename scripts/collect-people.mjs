@@ -111,6 +111,7 @@ if (isEntry && (process.argv.includes('--relations')||process.argv.includes('--r
       ?person p:P108 ?statement.
       ?statement ps:P108 ?org; wikibase:rank ?rank.
       FILTER(?rank != wikibase:DeprecatedRank)
+      FILTER NOT EXISTS { ?org wdt:P31 wd:Q5 }
       OPTIONAL { ?statement pq:P580 ?start }
       OPTIONAL { ?statement pq:P582 ?end }
       SERVICE wikibase:label { bd:serviceParam wikibase:language "ko,en". }

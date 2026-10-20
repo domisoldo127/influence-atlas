@@ -5,12 +5,14 @@ import {filterPeople,pageItems,indexRelations,relatedPeople,filterFlows,summariz
 const read=async name=>JSON.parse(await readFile(new URL('../'+name,import.meta.url),'utf8'));
 const catalog=await read('people.json'),network=await read('people-relations.json'),money=await read('flows.json');
 const original=await read('data.json');
+const personEmployers=await read('scripts/employer-person-types.json');
 
 test('실제 수집 인물 1만 명의 식별자와 출처를 보존한다',()=>{
   assert.equal(catalog.people.length,10000);
   assert.equal(new Set(catalog.people.map(p=>p.id)).size,10000);
   const qids=catalog.people.map(p=>p.wikidataId).filter(Boolean);
   assert.equal(new Set(qids).size,qids.length);
+  assert.equal(catalog.people.find(p=>p.wikidataId==='Q6831501').id,'saylor');
   const categories=new Set(catalog.categories.map(c=>c.id));
   for(const p of catalog.people){
     assert.equal(p.kind,'person');assert.ok(p.name&&p.en&&p.sourceUrl.startsWith('https://'));
@@ -33,6 +35,7 @@ test('분류 수는 중복 분야를 정확히 집계하고 1만 명 검색도 �
 });
 test('수집 관계는 유효한 인물·조직을 연결하고 원문의 시점과 근거를 가진다',()=>{
   const ids=new Set(catalog.people.map(p=>p.id)),orgs=new Set(network.organizations.map(o=>o.id));
+  for(const id of personEmployers.people)assert.ok(!orgs.has(id),'개인 고용주를 조직으로 표시하지 않는다');
   assert.ok(network.relations.length>0);
   assert.equal(new Set(network.relations.map(r=>r.id)).size,network.relations.length);
   for(const r of network.relations){

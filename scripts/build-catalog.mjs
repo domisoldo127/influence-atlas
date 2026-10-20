@@ -107,11 +107,12 @@ if(process.argv.includes('--relations')){
   const rows=await read('research-cache/employers-all.json');
   const byQ=new Map(people.filter(n=>n.wikidataId).map(n=>[n.wikidataId,n.id]));
   const orgs=new Map(), relations=new Map();
+  const personEmployers=new Set((await read('scripts/employer-person-types.json')).people);
   const dateValue=field=>field?.type==='literal'&&/^\d{4}-\d{2}-\d{2}T/.test(field.value)?field.value.slice(0,10):null;
   for(const r of rows) {
     const person=byQ.get(r.person.value.split('/').at(-1));
     const org=r.org.value.split('/').at(-1);
-    if(!person||!/^Q\d+$/.test(org))continue;
+    if(!person||!/^Q\d+$/.test(org)||personEmployers.has(org))continue;
     orgs.set(org,{id:org,name:r.orgLabel.value,kind:'organization',sourceUrl:'https://www.wikidata.org/wiki/'+org});
     const id=r.statement.value.split('/').at(-1);
     relations.set(id,{id,from:person,to:org,type:'employment-record',
