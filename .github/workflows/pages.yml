@@ -21,12 +21,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - run: npm run lint
       - run: npm test
       - uses: actions/configure-pages@v5
-      - run: |
-          mkdir _site
-          cp index.html styles.css app.js graph.js interactions.js data.json .nojekyll _site/
-          cp -R portraits _site/
+      - run: npm run build
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site

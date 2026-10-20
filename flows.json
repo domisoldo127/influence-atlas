@@ -1,0 +1,75 @@
+{
+  "version": "1.0",
+  "checkedAt": "2026-10-20",
+  "scope": "공식 발표·공시에서 선별한 거래 기록. 시장 전체 자금 흐름이나 실시간 송금 내역이 아닙니다.",
+  "organizations": [
+    {"id":"amazon","name":"Amazon","kind":"organization"},
+    {"id":"anthropic","name":"Anthropic","kind":"organization","atlasId":"anthropic"},
+    {"id":"softbank-svf2","name":"SoftBank Vision Fund 2","kind":"organization"},
+    {"id":"openai","name":"OpenAI","kind":"organization","atlasId":"openai"},
+    {"id":"microsoft","name":"Microsoft","kind":"organization","atlasId":"microsoft"},
+    {"id":"us-commerce","name":"미국 상무부 CHIPS 프로그램","kind":"organization"},
+    {"id":"SKhynix","name":"SK하이닉스","kind":"organization","atlasId":"SKhynix"},
+    {"id":"intel","name":"Intel","kind":"organization","atlasId":"intel"},
+    {"id":"mgx","name":"MGX","kind":"organization"},
+    {"id":"binance","name":"Binance","kind":"organization","atlasId":"binance"}
+  ],
+  "flows": [
+    {
+      "id":"amazon-anthropic-202403","from":"amazon","to":"anthropic","type":"equity","sector":"ai",
+      "amount":4000000000,"currency":"USD","amountBasis":"cumulative","status":"completed",
+      "date":"2024-03-27","period":"2023–2024년 3월 누적","dealId":"amazon-anthropic-initial",
+      "title":"초기 투자 총 40억 달러 완료",
+      "note":"당시까지의 누적 투자액입니다. 이후 추가 투자는 포함하지 않습니다. 기업 발표상 투자 완료이며 은행 송금 원장은 아닙니다.",
+      "sourceUrl":"https://www.aboutamazon.com/news/company-news/amazon-anthropic-ai-investment","sourceTitle":"Amazon: 초기 40억 달러 투자 완료","checkedAt":"2026-10-20"
+    },
+    {
+      "id":"softbank-openai-202512","from":"softbank-svf2","to":"openai","type":"equity","sector":"ai",
+      "amount":30000000000,"currency":"USD","amountBasis":"cumulative","status":"completed",
+      "date":"2025-12-26","period":"2025년 4월·12월 두 차례 합계","dealId":"softbank-openai-2025",
+      "title":"2025년 투자 300억 달러 완료",
+      "note":"4월 75억 달러와 12월 225억 달러의 합계입니다. 공동 투자자 110억 달러 및 기존 투자는 이 화살표에 합산하지 않습니다. 운용 펀드 SVF2를 지급 주체로 표시합니다.",
+      "sourceUrl":"https://group.softbank/en/news/press/20251231","sourceTitle":"SoftBank: 추가 225억 달러 투자 완료 및 2025년 누적액","checkedAt":"2026-10-20"
+    },
+    {
+      "id":"microsoft-openai-202301","from":"microsoft","to":"openai","type":"equity","sector":"ai",
+      "amount":null,"currency":"USD","amountBasis":"undisclosed","status":"announced",
+      "date":"2023-01-23","period":"여러 해에 걸친 투자 발표","dealId":"microsoft-openai-2023",
+      "title":"다년 투자 확대 발표",
+      "note":"원문은 수십억 달러 규모라고만 밝힙니다. 정확한 금액은 비공개로 표시하며 금액 집계에서 제외합니다. 이후 집행 현황을 뜻하지 않습니다.",
+      "sourceUrl":"https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/","sourceTitle":"Microsoft: OpenAI 협력 확대 발표","checkedAt":"2026-10-20"
+    },
+    {
+      "id":"chips-skhynix-grant-202412","from":"us-commerce","to":"SKhynix","type":"grant","sector":"chips",
+      "amount":458000000,"currency":"USD","amountBasis":"ceiling","status":"awarded",
+      "date":"2024-12-19","period":"마일스톤에 따른 지급 조건","dealId":"chips-skhynix-grant",
+      "title":"최대 4억 5,800만 달러 직접 지원 확정",
+      "note":"지원 계약의 상한액입니다. 실제 지급액은 아닙니다. 연구개발·첨단 패키징 시설 지원이며 별도 대출 한도와 구분합니다.",
+      "sourceUrl":"https://content.govdelivery.com/accounts/USDOC/bulletins/3c823cf","sourceTitle":"미국 상무부: SK하이닉스 CHIPS 최종 지원 발표","checkedAt":"2026-10-20"
+    },
+    {
+      "id":"chips-skhynix-loan-202412","from":"us-commerce","to":"SKhynix","type":"loan","sector":"chips",
+      "amount":500000000,"currency":"USD","amountBasis":"ceiling","status":"awarded",
+      "date":"2024-12-19","period":"대출 제공 한도","dealId":"chips-skhynix-loan",
+      "title":"최대 5억 달러 대출 지원",
+      "note":"대출 제공 한도입니다. 실제 인출·지급액은 확인하지 않았습니다. 직접 보조금과 다른 유형으로 집계합니다.",
+      "sourceUrl":"https://content.govdelivery.com/accounts/USDOC/bulletins/3c823cf","sourceTitle":"미국 상무부: SK하이닉스 대출 지원 한도","checkedAt":"2026-10-20"
+    },
+    {
+      "id":"mgx-binance-202503","from":"mgx","to":"binance","type":"equity","sector":"crypto",
+      "amount":2000000000,"currency":"USD","amountBasis":"announced","status":"announced",
+      "date":"2025-03-12","period":"발표 당시 투자액","dealId":"mgx-binance-2025",
+      "title":"20억 달러 소수지분 투자 발표",
+      "note":"발표는 스테이블코인을 통한 투자라고 설명합니다. USD는 표시 금액의 단위이며 은행 달러 송금으로 해석하지 않습니다. 지급 시점은 별도로 검증하지 않았습니다.",
+      "sourceUrl":"https://www.binance.com/en/blog/ecosystem/6242106085221073480","sourceTitle":"Binance·MGX: 20억 달러 투자 발표","checkedAt":"2026-10-20"
+    },
+    {
+      "id":"skhynix-intel-202503","from":"SKhynix","to":"intel","type":"acquisition","sector":"korea",
+      "amount":2235000000,"currency":"USD","amountBasis":"payment","status":"completed",
+      "date":"2025-03","period":"2025년 3월 잔금","dealId":"skhynix-intel-final",
+      "title":"NAND 사업 인수 잔금 지급",
+      "note":"SK하이닉스 2025년 연결재무제표의 지급액 2,235백만 달러입니다. 최초 발표한 총 인수대금 90억 달러와 구분하며, 첫 거래 종결분을 다시 합산하지 않습니다.",
+      "sourceUrl":"https://mis-prod-koce-homepage-cdn-01-blob-ep.azureedge.net/web/attach/121822586381465204.pdf","sourceTitle":"SK하이닉스 2025년 연결재무제표 · Intel NAND 사업 인수","checkedAt":"2026-10-20"
+    }
+  ]
+}
